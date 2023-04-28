@@ -1,0 +1,49 @@
+#logowhite {
+
+    top: 0;
+    left: 5px;
+    width: 150px;
+    margin-top: none;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Change the logo size and position for smaller screens */
+    #logowhite {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* Further adjust the logo size and position for even smaller screens */
+    #logowhite {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 110px;
+        height: 100px;
+    }
+}
+
+#course-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 2%;
+}
+
+#contact-form {
+    background: grey;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 100%;
+    margin-left: 15%;
+    border-radius: none;
+}

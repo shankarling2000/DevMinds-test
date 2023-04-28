@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+
+}
+
+#splash-logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
+#btns-container {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#btns-container button {
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #FC3;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#btns-container button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#btns-container button {
+    transition: all 0.2s ease-in-out;
+}
