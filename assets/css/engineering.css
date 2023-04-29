@@ -50,7 +50,7 @@
 
 
 
-@media only (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     #contact-form {
         background: grey;
@@ -68,7 +68,22 @@
     }
 }
 
-@media only (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    #map {
+        display: none;
+    }
+
+    #contact-form {
+        background: grey;
+        margin-bottom: 20%;
+        width: 80%;
+        height: 400px;
+        margin-left: none;
+        border-radius: none;
+    }
+}
+
+
 
 .left-content {
     color: aliceblue;
