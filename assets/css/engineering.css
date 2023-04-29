@@ -47,3 +47,29 @@
     margin-left: 15%;
     border-radius: none;
 }
+
+
+
+@media only (max-width: 768px) {
+
+    #contact-form {
+        background: grey;
+        margin-bottom: 20%;
+        width: 80%;
+        height: 100%;
+        margin-left: none;
+        border-radius: none;
+    }
+
+    #map {
+        display: block;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only (max-width: 480px) {}
+
+.left-content {
+    color: aliceblue;
+}
