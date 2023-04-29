@@ -123,12 +123,18 @@
         margin-bottom: none;
     }
 
-    #devminds-photo,
-    #devminds-photo1 {
+    #devminds-photo {
         margin-top: none;
         margin: auto;
         height: 60%;
-        width: 50%;
+        width: 80%;
+    }
+
+    #devminds-photo1 {
+        margin-top: none;
+        margin: auto;
+        height: 40%;
+        width: 60%;
     }
 
     .tabs-content {
