@@ -39,8 +39,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: none;
+    margin-bottom: none;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -57,6 +57,7 @@
     font-weight: 500;
     color: white;
     margin-bottom: none;
+    margin: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,11 +65,12 @@
 
 #devminds-photo {
     margin-top: none;
-    height: 50%;
-    width: 50%;
+    margin-bottom: 50px;
+    height: 40%;
+    width: 40%;
     display: flex;
     position: relative;
-    left: 25%;
+    left: 30%;
     justify-content: center;
     align-items: center;
 
@@ -78,12 +80,25 @@
 
 #devminds-photo1 {
     margin-top: none;
-    height: 60%;
-    width: 50%;
+    margin-bottom: 5px;
+    height: 70%;
+    width: 40%;
     display: flex;
     position: relative;
-    left: 25%;
+    left: 30%;
     justify-content: center;
     align-items: center;
+
+}
+
+.tabs-content {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    height: 100%;
+    width: 70%;
+    position: relative;
+    left: 16%;
 
 }
