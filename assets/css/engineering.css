@@ -75,9 +75,9 @@
 
     #contact-form {
         background: grey;
-        margin-bottom: 20%;
+        margin-bottom: 10px;
         width: 80%;
-        height: 400px;
+        height: 1000px;
         margin-left: none;
         border-radius: none;
     }
