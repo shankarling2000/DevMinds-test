@@ -110,12 +110,18 @@
         width: 90%;
         margin-left: 5%;
     }
+
+
 }
+
+
 
 @media (max-width: 480px) {
     #aboutustext {
         font-size: 1em;
     }
+
+
 
     #headings {
         margin-top: auto;
@@ -124,13 +130,14 @@
     }
 
     #devminds-photo {
-        margin-top: none;
+        margin-top: auto;
         margin: auto;
         height: 60%;
         width: 80%;
     }
 
     #devminds-photo1 {
+
         margin-top: none;
         margin: auto;
         height: 40%;
@@ -141,5 +148,89 @@
         width: 100%;
         height: auto;
         margin-left: 0;
+    }
+
+    .aboutus1 {
+        position: relative;
+        top: 70px;
+
+    }
+
+
+}
+
+
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    left: 158%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+    color: #be035b;
+}
+
+/* Twitter */
+.fa-twitter {
+
+    color: #55ACEE;
+}
+
+#socials-text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: none;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-twitter {
+        padding: 1px;
+        font-size: 50px;
+        width: 1px;
+        position: relative;
+        text-decoration: none;
+        margin: 2px;
+        left: 10%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .fa-instagram,
+    .fa-linkedin,
+    .fa-twitter {
+        padding: 20px;
+        font-size: 20px;
+
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
+        left: 20%;
     }
 }
