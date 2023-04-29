@@ -184,13 +184,18 @@
 
 /* Facebook */
 .fa-instagram {
-    color: #be035b;
+    color: #ef05b4;
 }
 
 /* Twitter */
 .fa-twitter {
 
     color: #55ACEE;
+}
+
+.fa-linkedin {
+
+    color: white;
 }
 
 #socials-text {
