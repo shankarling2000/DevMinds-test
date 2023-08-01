@@ -17,26 +17,29 @@ body {
 #btns-container {
     text-align: center;
     margin-top: 50px;
-
 }
 
 #btns-container button {
+    display: block;
+    width: 210px;
+
     font-size: 1.5em;
-    margin: 10px;
+    margin: 15px auto;
     padding: 10px 20px;
     border: none;
+    border-radius: 1%;
     background-color: #FC3;
     color: #000;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    transition: all 0.2s ease-in-out;
 }
 
 #btns-container button:hover {
+    color: black;
+    transform: translateY(0) scale(1.5);
     background-color: #000;
     color: #fff;
-}
 
-#btns-container button {
-    transition: all 0.2s ease-in-out;
 }
