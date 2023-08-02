@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo {
+    border: 2px solid #b7b7b7;
+    padding: 10px;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .photo-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+
+#bodySection {
+    background-image: url(../images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    padding-bottom: 100px;
+    padding: 0px 30px 100px 30px;
+}
+
+#galleryHeading {
+    text-align: center;
+    color: #ccc;
+}
