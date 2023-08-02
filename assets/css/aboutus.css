@@ -243,3 +243,16 @@
         left: 20%;
     }
 }
+
+#devminds-photo1:hover {
+    border: 1px solid #ccc;
+}
+
+#devminds-photo:hover {
+    border: 1px solid #ccc;
+}
+
+#figcap2 {
+    color: #ccc;
+    text-align: center;
+}
