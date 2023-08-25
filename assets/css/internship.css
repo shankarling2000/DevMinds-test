@@ -498,8 +498,8 @@
     }
 
     #courseimg {
-        height: fit-content;
-        width: fit-content;
+        height: 100%;
+        width: 100%;
     }
 
     @import url(fontawesome.css);
@@ -1816,4 +1816,12 @@
         #letter {
             height: 50%;
             width: 50%;
+        }
+
+        .highlight {
+            margin-top: 8px;
+        }
+
+        article {
+            margin: 10px;
         }
