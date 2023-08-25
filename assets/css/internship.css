@@ -1796,3 +1796,24 @@
             font-size: larger;
             animation-fill-mode: forwards;
         }
+
+
+        .contactbtn {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            height: 40px;
+            width: auto;
+            color: #CCC;
+            background-color: #f5a425;
+            border: none;
+        }
+
+        .contactbtn:hover {
+            font-size: larger;
+            animation-fill-mode: forwards;
+        }
+
+        #letter {
+            height: 50%;
+            width: 50%;
+        }

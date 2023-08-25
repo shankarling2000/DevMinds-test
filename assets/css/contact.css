@@ -1783,7 +1783,8 @@
         }
 
         .form-container {
-            background-color: #333;
+            border: #CCC;
+            background-color: #000000;
             color: white;
             padding: 20px;
             border-radius: 10px;
@@ -1832,4 +1833,22 @@
             background-color: black;
             color: white;
             font-size: larger;
+        }
+
+        #contactform {
+            border: 1px solid #ccc;
+            border-radius: 2%;
+            padding: 20px;
+            /* Add padding for spacing between content and border */
+            /* Adjust the width as needed */
+            /* Center the form horizontally */
+        }
+
+        @media (max-width: 600px) {
+            #contactform {
+                width: 100%;
+                /* Make the form span the full width of the screen */
+                padding: 10px;
+                /* Reduce padding for smaller screens */
+            }
         }

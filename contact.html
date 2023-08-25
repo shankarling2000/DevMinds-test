@@ -56,15 +56,15 @@
                     <h6>Contact us</h6>
                     <div class="main-button">
                         <div class="form-container">
-                            <form action="https://formspree.io/f/xvojkgpj" method="POST">
+                            <form id="contactform" action="https://formspree.io/f/xvojkgpj" method="POST">
                                 <label>Your Email:</label>
-                                <input type="email" name="email" required>
+                                <input type="email" name="email" id="email" required>
 
                                 <label>Your Phone:</label>
-                                <input type="text" name="text" required>
+                                <input type="text" name="text" id="phone" required>
 
                                 <label>Your Message:</label>
-                                <textarea name="message" rows="4" required></textarea>
+                                <textarea name="message" rows="4" id="message" required></textarea>
                                 <!-- your other form fields go here -->
                                 <button type="submit">Send</button>
                             </form>
