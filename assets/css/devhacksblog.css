@@ -495,3 +495,8 @@ section.contact form button {
 .mainheading {
     font-size: 300%;
 }
+
+.winners {
+    font-size: larger;
+    font-weight: 600;
+}
