@@ -34,10 +34,28 @@
     }
 }
 
-#course-btn {
+.button-container {
+    text-align: center;
+}
+
+#services-heading {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+
+
+
+
+.button-container .btn {
+
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin: 2%;
+
 }
 
 #contact-form {
@@ -72,6 +90,11 @@
 }
 
 @media only screen and (max-width: 480px) {
+
+    #breaks {
+        display: none;
+    }
+
     #map {
         display: none;
     }
@@ -448,4 +471,32 @@ section.contact form button {
     padding: 12px 20px;
     display: inline-block;
     outline: none;
+}
+
+
+
+
+.button-container button {
+    height: 10em;
+    width: 10em;
+    font-size: larger;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: #e3db00 solid 1px;
+}
+
+.btn-yellow {
+    background-color: black;
+    color: rgb(231, 215, 0);
+}
+
+.btn-gold {
+    background-color: black;
+    color: rgb(231, 215, 0);
+}
+
+.btn-black {
+    background-color: black;
+    color: rgb(231, 215, 0);
 }
