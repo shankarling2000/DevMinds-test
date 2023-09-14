@@ -118,12 +118,10 @@ function openOverlay(buttonData) {
         button.addEventListener("click", buttonData.onClick);
         overlayButtons.appendChild(button);
     });
-    document.body.classList.add("lock-scroll");
 }
 function closeOverlay() {
     var overlay = document.getElementById("overlay");
     overlay.style.display = "none";
-    document.body.classList.remove("lock-scroll");
 }
 
 // Add click event listeners to the buttons

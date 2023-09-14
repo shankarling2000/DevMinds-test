@@ -546,3 +546,51 @@ section.contact form button {
 .lock-scroll {
     overflow: hidden;
 }
+
+
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+    .overlay-content {
+        padding: 10px;
+        size: 100px;
+    }
+
+    #overlay-image {
+        height: 80%;
+        width: 80%;
+    }
+}
+
+/* Media query for phones */
+@media screen and (max-width: 480px) {
+    .overlay-content {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    #overlay-image {
+        height: 15em;
+        width: 15em;
+    }
+}
+
+
+.carousel-container {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    /* Make sure overlay is above the carousel */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
