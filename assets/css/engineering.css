@@ -501,8 +501,6 @@ section.contact form button {
     color: rgb(231, 215, 0);
 }
 
-
-
 /* overlay */
 
 .overlay {
@@ -534,4 +532,17 @@ section.contact form button {
     right: 10px;
     font-size: 24px;
     cursor: pointer;
+}
+
+#overlay-image {
+    border: 1px solid black;
+    width: auto;
+    /* Adjust the width to your preferred small size */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+
+.lock-scroll {
+    overflow: hidden;
 }

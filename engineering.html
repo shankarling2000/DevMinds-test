@@ -232,7 +232,7 @@ https://templatemo.com/tm-557-grad-school
                         data-info="internship">Internship
                         Programs</button>
                     <button class="btn btn-black" onclick="openOverlay('Workshops')"
-                        data-info="workshop">Workshops</button>
+                        data-info="workshops">Workshops</button>
                     <button class="btn btn-black" onclick="openOverlay('Miscellaneous Courses')"
                         data-info="Miscellaneous">Miscellaneous
                         Courses</button>
@@ -244,10 +244,16 @@ https://templatemo.com/tm-557-grad-school
                 <div class="overlay-content">
                     <span class="close-btn" onclick="closeOverlay()">&times;</span>
                     <h2 id="overlay-title"></h2>
+                    <div id="overlay-image-container">
+                        <img id="overlay-image" src="" alt="">
+                    </div>
                     <p id="overlay-content"></p>
-                    <button class="close-overlay-btn" onclick="closeOverlay()">Close</button>
+                    <div id="overlay-buttons">
+                        <button class="close-overlay-btn" onclick="closeOverlay()">Close</button>
+                    </div>
                 </div>
             </div>
+
 
     </section>
 
