@@ -226,15 +226,28 @@ https://templatemo.com/tm-557-grad-school
 
             <div class="button-container">
                 <div class="button-container">
-                    <button class="btn btn-yellow">Placement Training</button>
-                    <button class="btn btn-gold">Internship Programs</button>
-                    <button class="btn btn-black">Workshops</button>
-                    <button class="btn btn-black">Miscellaneous Courses</button>
-                    <button class="btn btn-black">Events</button>
+                    <button class="btn btn-yellow" data-info="placement">Placement
+                        Training</button>
+                    <button class="btn btn-gold" onclick="openOverlay('Internship Programs')"
+                        data-info="internship">Internship
+                        Programs</button>
+                    <button class="btn btn-black" onclick="openOverlay('Workshops')"
+                        data-info="workshop">Workshops</button>
+                    <button class="btn btn-black" onclick="openOverlay('Miscellaneous Courses')"
+                        data-info="Miscellaneous">Miscellaneous
+                        Courses</button>
+                    <button class="btn btn-black" onclick="openOverlay('Events')" data-info="Events">Events</button>
                 </div>
-
             </div>
 
+            <div class="overlay" id="overlay">
+                <div class="overlay-content">
+                    <span class="close-btn" onclick="closeOverlay()">&times;</span>
+                    <h2 id="overlay-title"></h2>
+                    <p id="overlay-content"></p>
+                    <button class="close-overlay-btn" onclick="closeOverlay()">Close</button>
+                </div>
+            </div>
 
     </section>
 
@@ -390,15 +403,7 @@ https://templatemo.com/tm-557-grad-school
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="assets\js\engineering.js"></script>
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');
@@ -450,6 +455,17 @@ https://templatemo.com/tm-557-grad-school
             checkSection();
         });
     </script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
 </body>
 
 </html>
