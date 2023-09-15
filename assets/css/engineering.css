@@ -594,3 +594,8 @@ section.contact form button {
     align-items: center;
     text-align: center;
 }
+
+
+#overlaybtns {
+    margin: 5px;
+}

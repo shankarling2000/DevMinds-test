@@ -5,15 +5,9 @@ const buttonInfo = {
         image: "assets/images/04.jpg",// Replace with the actual image file name
         buttons: [
             {
-                label: "Button 1",
+                label: "Get a Quote",
                 onClick: function () {
-                    // Add functionality for Button 1 here
-                }
-            },
-            {
-                label: "Button 2",
-                onClick: function () {
-                    // Add functionality for Button 2 here
+                    window.location.href = 'https://devminds.in/contact';
                 }
             }
         ]
@@ -23,16 +17,11 @@ const buttonInfo = {
         content: "Information about Internship Programs.",
         image: "assets/images/04.jpg", // Replace with the actual image file name
         buttons: [
+
             {
-                label: "Button 1",
+                label: "Register",
                 onClick: function () {
-                    // Add functionality for Button 1 here
-                }
-            },
-            {
-                label: "Button 2",
-                onClick: function () {
-                    // Add functionality for Button 2 here
+                    window.location.href = 'https://devminds.in/internship';
                 }
             }
         ]
@@ -43,15 +32,9 @@ const buttonInfo = {
         image: "assets/images/04.jpg", // Replace with the actual image file name
         buttons: [
             {
-                label: "Button 1",
+                label: "Register",
                 onClick: function () {
-                    // Add functionality for Button 1 here
-                }
-            },
-            {
-                label: "Button 2",
-                onClick: function () {
-                    // Add functionality for Button 2 here
+                    window.location.href = 'https://devminds.in/';
                 }
             }
         ]
@@ -62,15 +45,9 @@ const buttonInfo = {
         image: "assets/images/04.jpg", // Replace with the actual image file name
         buttons: [
             {
-                label: "Button 1",
+                label: "Contact us",
                 onClick: function () {
-                    // Add functionality for Button 1 here
-                }
-            },
-            {
-                label: "Button 2",
-                onClick: function () {
-                    // Add functionality for Button 2 here
+                    window.location.href = 'https://devminds.in/contact';
                 }
             }
         ]
@@ -80,16 +57,11 @@ const buttonInfo = {
         content: "Information about DevMinds Events.",
         image: "assets/images/04.jpg", // Replace with the actual image file name
         buttons: [
+
             {
-                label: "Button 1",
+                label: "Get a Quote",
                 onClick: function () {
-                    // Add functionality for Button 1 here
-                }
-            },
-            {
-                label: "Button 2",
-                onClick: function () {
-                    // Add functionality for Button 2 here
+                    window.location.href = 'https://devminds.in/contact';
                 }
             }
         ]
