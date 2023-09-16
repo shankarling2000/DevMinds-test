@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #logowhite {
 
     top: 0;
@@ -532,6 +536,8 @@ section.contact form button {
 
 .overlay-content {
     position: absolute;
+    height: auto;
+    width: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -555,9 +561,9 @@ section.contact form button {
     border-radius: 1%;
     margin: 5px;
     border: 0px solid black;
-    width: 80%;
+    width: 450px;
     /* Adjust the width to your preferred small size */
-    height: 80%;
+    height: 350px;
     /* Maintain aspect ratio */
 }
 
@@ -575,8 +581,8 @@ section.contact form button {
     }
 
     #overlay-image {
-        height: 80%;
-        width: 80%;
+        height: 350px;
+        width: 450px;
     }
 }
 
@@ -628,4 +634,10 @@ section.contact form button {
 #overlay-title {
     font-size: larger;
     font-weight: 400;
+}
+
+#disc {
+
+    scroll-behavior: smooth;
+    transition-delay: 800ms;
 }

@@ -16,7 +16,7 @@ const buttonInfo = {
     },
     internship: {
         title: "Internship Programs",
-        content: "We provide the best in class internship programs.\n Domains include: \nWeb Development, AI/ML - Data Science, Embedded Systems  and IOT,  DevOps etc",
+        content: "We provide the best in class internship programs.\n Domains include: Full Stack Web Dev, AI/ML - Data Science,\n Embedded Systems  and IOT,  DevOps etc",
         image: "assets/images/misc.jpg", // Replace with the actual image file name
         buttons: [
 
@@ -31,7 +31,7 @@ const buttonInfo = {
     },
     Workshops: {
         title: "Workshops",
-        content: "From 1-day workshops to 2 months bootcamps, we have it lined up for you in various domains",
+        content: "From 1-day workshops to 2 months bootcamps, \nWe have it lined up for you in various domains",
         image: "assets/images/webdev.jpg", // Replace with the actual image file name
         buttons: [
             {
@@ -45,7 +45,7 @@ const buttonInfo = {
     },
     Miscellaneous: {
         title: "Miscellaneous Courses",
-        content: "At DevMinds, we have many miscellaneous courses like Leadership Skills, Public Speaking Clubs, Financial Discipline Masterclass etc",
+        content: "At DevMinds, we have many miscellaneous courses like \nLeadership Skills, Public Speaking Clubs, Financial Discipline Masterclass etc",
         image: "assets/images/softskills.jpg", // Replace with the actual image file name
         buttons: [
             {
@@ -59,7 +59,7 @@ const buttonInfo = {
     },
     Events: {
         title: "Events",
-        content: "We host and organise various scholastic, tech, and fun events like Hackathons, Carnivals, ",
+        content: "We host and organise various scholastic, tech, and fun events,\n like Hackathons, Carnivals, ",
         image: "assets/images/gallery1.jpg", // Replace with the actual image file name
         buttons: [
 
