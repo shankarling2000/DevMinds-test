@@ -1,10 +1,12 @@
 const buttonInfo = {
     placement: {
         title: "Placement Training",
-        content: "Information about Placement Training.",
-        image: "assets/images/04.jpg",// Replace with the actual image file name
+        content: "Branches covered: CSE ISE AI/ML EC EEE MECH & CIVIL" +
+            "\nGet a quote by contacting us with your requirement, our team will get in touch with you",
+        image: "assets/images/placement.jpg",// Replace with the actual image file name
         buttons: [
             {
+                id: "overlaybtns",
                 label: "Get a Quote",
                 onClick: function () {
                     window.location.href = 'https://devminds.in/contact';
@@ -14,11 +16,12 @@ const buttonInfo = {
     },
     internship: {
         title: "Internship Programs",
-        content: "Information about Internship Programs.",
-        image: "assets/images/04.jpg", // Replace with the actual image file name
+        content: "We provide the best in class internship programs.\n Domains include: \nWeb Development, AI/ML - Data Science, Embedded Systems  and IOT,  DevOps etc",
+        image: "assets/images/misc.jpg", // Replace with the actual image file name
         buttons: [
 
             {
+                id: "overlaybtns",
                 label: "Register",
                 onClick: function () {
                     window.location.href = 'https://devminds.in/internship';
@@ -28,10 +31,11 @@ const buttonInfo = {
     },
     Workshops: {
         title: "Workshops",
-        content: "Information about Workshops.",
-        image: "assets/images/04.jpg", // Replace with the actual image file name
+        content: "From 1-day workshops to 2 months bootcamps, we have it lined up for you in various domains",
+        image: "assets/images/webdev.jpg", // Replace with the actual image file name
         buttons: [
             {
+                id: "overlaybtns",
                 label: "Register",
                 onClick: function () {
                     window.location.href = 'https://devminds.in/';
@@ -41,10 +45,11 @@ const buttonInfo = {
     },
     Miscellaneous: {
         title: "Miscellaneous Courses",
-        content: "Information about Miscellaneous Courses.",
-        image: "assets/images/04.jpg", // Replace with the actual image file name
+        content: "At DevMinds, we have many miscellaneous courses like Leadership Skills, Public Speaking Clubs, Financial Discipline Masterclass etc",
+        image: "assets/images/softskills.jpg", // Replace with the actual image file name
         buttons: [
             {
+                id: "overlaybtns",
                 label: "Contact us",
                 onClick: function () {
                     window.location.href = 'https://devminds.in/contact';
@@ -54,11 +59,12 @@ const buttonInfo = {
     },
     Events: {
         title: "Events",
-        content: "Information about DevMinds Events.",
-        image: "assets/images/04.jpg", // Replace with the actual image file name
+        content: "We host and organise various scholastic, tech, and fun events like Hackathons, Carnivals, ",
+        image: "assets/images/gallery1.jpg", // Replace with the actual image file name
         buttons: [
 
             {
+                id: "overlaybtns",
                 label: "Get a Quote",
                 onClick: function () {
                     window.location.href = 'https://devminds.in/contact';
@@ -86,6 +92,7 @@ function openOverlay(buttonData) {
     // Add buttons for this overlay
     buttonInfo[buttonData].buttons.forEach(function (buttonData, index) {
         var button = document.createElement("button");
+        button.id = buttonData.id;
         button.innerText = buttonData.label;
         button.addEventListener("click", buttonData.onClick);
         overlayButtons.appendChild(button);
