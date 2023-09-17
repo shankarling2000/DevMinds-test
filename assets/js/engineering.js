@@ -38,7 +38,7 @@ const buttonInfo = {
                 id: "overlaybtns",
                 label: "Register",
                 onClick: function () {
-                    window.location.href = 'https://devminds.in/';
+                    window.location.href = 'https://devminds.in/workshops';
                 }
             }
         ]
