@@ -141,6 +141,10 @@ section.video {
         font-size: larger;
     }
 
+    #textslogan {
+        font-size: medium;
+    }
+
     #aboutusdiv {
         margin-top: 10%;
         display: flex;
@@ -156,6 +160,7 @@ section.video {
     }
 
     .text {
+        text-align: none;
         padding: 20px;
 
     }
@@ -166,6 +171,9 @@ section.video {
 
 @media (max-width: 680px) {
 
+    #textslogan {
+        font-size: medium;
+    }
 
     #aboutusheading {
         text-align: center;
@@ -187,12 +195,16 @@ section.video {
 
     .text {
         padding: 20px;
+        text-align: none;
 
     }
 }
 
 @media (max-width: 360px) {
 
+    #textslogan {
+        font-size: medium;
+    }
 
     #balls {
         display: none;
@@ -219,6 +231,7 @@ section.video {
 
     .text {
         padding: 5px;
+        text-align: none;
 
     }
 }
