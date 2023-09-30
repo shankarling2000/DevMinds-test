@@ -1,0 +1,246 @@
+@media (min-width: 1600px) {
+
+    .element10 {
+        width: 40px;
+        height: 40px;
+        background-color: #515152;
+        position: absolute;
+        top: 85%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element9 {
+        width: 60px;
+        height: 60px;
+        background-color: #9d9d9d;
+        position: absolute;
+        top: 85%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element8 {
+        width: 20px;
+        height: 20px;
+        background-color: #b1b1b1;
+        position: absolute;
+        top: 85%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element7 {
+        width: 50px;
+        height: 50px;
+        background-color: #c9c9c9;
+        position: absolute;
+        top: 85%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element1 {
+        width: 20px;
+        height: 20px;
+        background-color: #f4f4f4;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element2 {
+        width: 40px;
+        height: 40px;
+        background-color: #9f9f9f;
+        position: absolute;
+        top: 85%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element3 {
+        width: 50px;
+        height: 50px;
+        background-color: #535353;
+        position: absolute;
+        top: 85%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element4 {
+        width: 35px;
+        height: 35px;
+        background-color: #a1a1a1;
+        position: absolute;
+        top: 85%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element5 {
+        width: 10px;
+        height: 10px;
+        background-color: #a9a9a9;
+        position: absolute;
+        top: 85%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .element6 {
+        width: 10px;
+        height: 10px;
+        background-color: #717171;
+        position: absolute;
+        top: 85%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele10 {
+        width: 40px;
+        height: 40px;
+        background-color: #515152;
+        position: absolute;
+        top: 185%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele9 {
+        width: 60px;
+        height: 60px;
+        background-color: #9d9d9d;
+        position: absolute;
+        top: 185%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele8 {
+        width: 20px;
+        height: 20px;
+        background-color: #b1b1b1;
+        position: absolute;
+        top: 185%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele7 {
+        width: 50px;
+        height: 50px;
+        background-color: #c9c9c9;
+        position: absolute;
+        top: 185%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele1 {
+        width: 20px;
+        height: 20px;
+        background-color: #f4f4f4;
+        position: absolute;
+        top: 185%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele2 {
+        width: 40px;
+        height: 40px;
+        background-color: #9f9f9f;
+        position: absolute;
+        top: 185%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele3 {
+        width: 50px;
+        height: 50px;
+        background-color: #535353;
+        position: absolute;
+        top: 185%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele4 {
+        width: 35px;
+        height: 35px;
+        background-color: #a1a1a1;
+        position: absolute;
+        top: 185%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele5 {
+        width: 10px;
+        height: 10px;
+        background-color: #a9a9a9;
+        position: absolute;
+        top: 185%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+
+    .ele6 {
+        width: 10px;
+        height: 10px;
+        background-color: #717171;
+        position: absolute;
+        top: 185%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        animation: moveElement 1s ease-in-out infinite alternate;
+    }
+}
+
+
+
+<div class="container" id="balls"><div class="ele1"></div><div class="ele2"></div><div class="ele3"></div><div class="ele4"></div><div class="ele5"></div><div class="ele6"></div><div class="ele7"></div><div class="ele8"></div><div class="ele9"></div><div class="ele10"></div></div><div class="container" id="balls"><div class="element1"></div><div class="element2"></div><div class="element3"></div><div class="element4"></div><div class="element5"></div><div class="element6"></div><div class="element7"></div><div class="element8"></div><div class="element9"></div><div class="element10"></div></div>
