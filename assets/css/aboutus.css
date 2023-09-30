@@ -122,6 +122,7 @@ section.video {
     flex: 1;
     padding: 20px;
     text-align: justify;
+    font-size: larger;
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-family: 'Rubik', sans-serif;
