@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     transition: all 0.8s ease;
-    font-family: 'Montserrat', sans-serif;
+
 }
 
 #logowhite {
@@ -123,10 +123,16 @@ section.video {
     padding: 20px;
     text-align: justify;
     font-size: larger;
-
-
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
 }
 
+#textslogan {
+    font-weight: 800;
+    margin-top: 5%;
+    font-size: larger;
+}
 
 @media (max-width: 480px) {
 
@@ -153,6 +159,7 @@ section.video {
         padding: 20px;
 
     }
+
 
 }
 
@@ -185,6 +192,8 @@ section.video {
 }
 
 @media (max-width: 360px) {
+
+
     #balls {
         display: none;
     }
@@ -217,6 +226,11 @@ section.video {
 
 
 @media (min-width: 680px) and (max-width: 1000px) {
+    #textslogan {
+        margin-top: 5%;
+        font-size: 1em;
+    }
+
     #aboutusheading {
         text-align: center;
     }
