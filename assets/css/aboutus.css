@@ -95,7 +95,9 @@ section.video {
     width: 100%;
 }
 
-
+#aboutusheading {
+    font-size: 2em;
+}
 
 #aboutusdiv {
     color: aliceblue;
@@ -120,6 +122,8 @@ section.video {
     flex: 1;
     padding: 20px;
     text-align: justify;
+    font-size: larger;
+
 
 }
 
