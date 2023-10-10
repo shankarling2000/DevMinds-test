@@ -1844,3 +1844,27 @@
             border: #CCC;
             border: 1px solid;
         }
+
+
+        #aboutusheading {
+            font-size: 2em;
+        }
+
+        #aboutusdiv {
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            padding: inherit;
+            column-gap: 10%;
+            margin-bottom: auto;
+            /* Vertical alignment */
+        }
+
+        .video {
+            margin-top: 10%;
+            margin-bottom: 2%;
+            flex: 1;
+            border-radius: 2%;
+
+            /* Take up 50% of the container width */
+        }
