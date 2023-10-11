@@ -1868,3 +1868,43 @@
 
             /* Take up 50% of the container width */
         }
+
+
+        .intcontainer {
+            border: 1px solid aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto;
+            padding: auto;
+        }
+
+        .intvideo {
+            width: 50%;
+            margin: auto;
+            padding: 2%;
+        }
+
+        .intdescription {
+            color: aliceblue;
+            width: 40%;
+            text-align: center;
+            margin: auto;
+            padding: auto;
+
+        }
+
+        @media (max-width: 768px) {
+            .intcontainer {
+                flex-direction: column;
+            }
+
+            .intvideo,
+            .intdescription {
+                width: 100%;
+            }
+        }
+
+        #intdes {
+            font-size: medium;
+        }
