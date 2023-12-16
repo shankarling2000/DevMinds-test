@@ -1993,6 +1993,21 @@
                 height:80%;
 
             }
+        }
+
+
+
+
+        @media only screen and (max-width:762px) and (min-width: 100px) {
+            .intdescription {
+                color: aliceblue;
+                width: 80%;
+                text-align: center;
+                margin: 2px;
+                padding: auto;
+
+            }
+
 
 
         }
