@@ -490,7 +490,7 @@
     }
 
     .section2 {
-        background-image: url(../images/wallpaper.jpg);
+        background-image: url(../images/charcoal.png);
         background-color: #030303;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1788,7 +1788,7 @@
 
         #bodySection {
             background: fixed;
-            background-image: url(../images/wallpaper2.jpg);
+            background-color: black;
             color: #CCC;
             text-align: center;
         }
@@ -1907,4 +1907,21 @@
 
         #intdes {
             font-size: medium;
+        }
+
+        .courseimg {
+            border-radius: 1%;
+            margin-top: 10%;
+            height: 380px;
+            width: 380px;
+            border: none;
+        }
+
+
+        .courseimg2 {
+            border-radius: 1%;
+            margin-top: 5%;
+            height: 480px;
+            width: 480px;
+            border: none;
         }
