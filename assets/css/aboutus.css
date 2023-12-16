@@ -392,3 +392,39 @@ section.video {
     margin-top: auto;
     margin-bottom: 2%;
 }
+
+
+
+.bulbs {
+    display: flex;
+    justify-content: center;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 300px) {
+    .bulbs img {
+        width: 30px;
+        /* Adjust the size for smaller screens (mobiles) */
+        margin: 0 5px;
+        /* Adjust the spacing for smaller screens */
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .bulbs img {
+        width: 100px;
+        /* Adjust the size for medium-sized screens (tablets) */
+        height: 100px;
+        /* Adjust the spacing for medium-sized screens */
+    }
+}
+
+/* Add more media queries as needed for larger screens (laptops, desktops) */
+@media only screen and (min-width: 1025px) {
+    .bulbs img {
+        width: 150px;
+        /* Adjust the size for medium-sized screens (tablets) */
+        height: 150px;
+        /* Keep the spacing constant for larger screens */
+    }
+}
