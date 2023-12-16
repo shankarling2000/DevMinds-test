@@ -1903,6 +1903,12 @@
             .intdescription {
                 width: 100%;
             }
+
+            .ipvideo {
+                width:460px;
+                height:315px;
+
+            }
         }
 
         #intdes {
@@ -1918,10 +1924,75 @@
         }
 
 
-        .courseimg2 {
-            border-radius: 1%;
-            margin-top: 5%;
-            height: 480px;
-            width: 480px;
-            border: none;
+
+        .ipvideo {
+            width:560px;
+            height:315px;
+            margin: 35px;
+            border: 3px groove white;
+
+        }
+
+        @media (max-width:1058px) {
+            .ipvideo {
+                width:500px;
+                height:315px;
+
+            }
+        }
+
+
+        @media only screen and (max-width:945px) and (min-width: 770px) {
+            .ipvideo {
+                justify-content: center;
+                left: 10%;
+                width:400px;
+                height:215px;
+
+            }
+        }
+
+        @media only screen and (max-width:945px) and (min-width: 770px) {
+            .ipvideo {
+                justify-content: center;
+                left: 10%;
+                width:400px;
+                height:215px;
+
+            }
+        }
+
+        @media only screen and (max-width:548px) and (min-width: 100px) {
+            .ipvideo {
+                justify-content: center;
+                left: 10%;
+                width:auto;
+                height:auto;
+
+            }
+
+
+        }
+
+
+        @media only screen and (max-width:440px) and (min-width: 100px) {
+            .courseimg {
+                height: 300px;
+                width: 220px;
+                border: none;
+            }
+        }
+
+
+
+        @media only screen and (max-width:390px) and (min-width: 100px) {
+            .ipvideo {
+                justify-content: center;
+                left: 10%;
+                width:80%;
+                height:80%;
+
+            }
+
+
         }
