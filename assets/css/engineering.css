@@ -642,3 +642,12 @@ section.contact form button {
     scroll-behavior: smooth;
     transition-delay: 800ms;
 }
+
+.video-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.55);
+    top: 0;
+    left: 0;
+    bottom: 7px;
+    width: 100%;
+}
