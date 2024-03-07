@@ -110,4 +110,3 @@ buttons.forEach(button => {
         openOverlay(this.getAttribute("data-info"));
     });
 });
-
