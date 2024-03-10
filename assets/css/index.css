@@ -151,3 +151,42 @@ html {
     outline: none;
     text-align: center;
 }
+
+/* Styles for the overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Transparent black */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect */
+    z-index: 9999;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for the card */
+.card {
+    background-color: rgba(0, 88, 231, 0.742);
+    color: aliceblue;
+    /* Translucent white */
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+/* Styles for the close button */
+.close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+}

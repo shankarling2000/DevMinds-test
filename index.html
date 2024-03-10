@@ -60,6 +60,37 @@
 
 <body>
 
+  <button onclick="openPopup()">Open Popup</button>
+
+  <!-- The overlay -->
+  <div id="overlay" class="overlay">
+    <!-- The card -->
+    <div class="card">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <img src="assets/images/Data science  gif.gif" alt="Image">
+      <h5>Internship Bootcamp</h5>
+      <p>Packed with multiple projects and practical code along sessions, led by Industry
+        Experts.
+        <br>
+        <span style="font-weight: 800;">Limited slots only. Enroll Now! </span>
+      </p>
+      <!-- Button to redirect -->
+      <button onclick="window.location.href = 'internship.html'">Go to Internship</button>
+    </div>
+  </div>
+
+  <script>
+    // Function to open the popup
+    function openPopup() {
+      document.getElementById("overlay").style.display = "block";
+    }
+
+    // Function to close the popup
+    function closePopup() {
+      document.getElementById("overlay").style.display = "none";
+    }
+  </script>
+
 
   </div>
   <div id="allBody">
@@ -76,7 +107,7 @@
           <h2><em>Re </em>- Evolution</h2>
           <div class="main-button">
             <div class="scroll-to-section"><a href="engineering.html">ENGINEERING</a></div>
-            <div class="scroll-to-section"><a href="junio.html">JUNIO</a></div>
+            <!-- <div class="scroll-to-section"><a href="junio.html">JUNIO</a></div> -->
             <!-- <div class="scroll-to-section"><a href="junio.html">ProEdge</a></div> -->
             <!-- <div class="scroll-to-section"><a href="junio.html">Events</a></div> -->
 

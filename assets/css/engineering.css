@@ -645,7 +645,7 @@ section.contact form button {
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.80);
     top: 0;
     left: 0;
     bottom: 7px;
