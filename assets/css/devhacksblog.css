@@ -1,9 +1,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #000;
+    background-color: #000000;
     color: #CCC;
     margin: 0;
     padding: 0;
+}
+
+.blogbody {
+    background-color: #000000e0;
+    color: aliceblue;
 }
 
 .features {
