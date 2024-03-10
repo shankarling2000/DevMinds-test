@@ -103,9 +103,9 @@
                                                 <button class="registerbtn"> <a style="color: black;"
                                                         href="aiml.html">Know
                                                         More</a></button>
-                                                <button class="registerbtn" style=" margin-left:4px; color:black;"> <a
-                                                        href=""></a>
-                                                    Register </button>
+                                                <button class="registerbtn" style="color: black; margin-left: 2px;"
+                                                    onclick="openInNewTab('https:rzp.io/l/internshipbootcamp')">
+                                                    Register</button>
                                             </div>
 
                                         </div>
@@ -347,6 +347,14 @@
                 s1.setAttribute('crossorigin', '*');
                 s0.parentNode.insertBefore(s1, s0);
             })();
+        </script>
+
+
+        <script>
+            function openInNewTab(url) {
+                var win = window.open(url, '_blank');
+                win.focus();
+            }
         </script>
         <!--End of Tawk.to Script-->
         <!-- Scripts -->
