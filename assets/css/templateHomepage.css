@@ -59,6 +59,17 @@
 
 
     /* Buttons */
+    #logowhite {
+
+        top: 0;
+        left: 5px;
+        width: 200px;
+        margin-top: none;
+        padding-bottom: 20px;
+        height: 100px;
+        position: fixed;
+        z-index: 1;
+    }
 
 
 
@@ -120,7 +131,7 @@
 
         nav[role="navigation"] li:hover a,
         nav[role="navigation"] li.active a {
-            color: #f5a425;
+            color: #000000;
         }
 
         @media screen and (min-width: 951px) {
@@ -156,7 +167,7 @@
     }
 
     .main-header {
-        background-color: rgba(2, 2, 2, 0.95);
+        background-color: rgba(39, 0, 93, 0.95);
         height: 80px;
         position: fixed;
         z-index: 12;
@@ -268,6 +279,9 @@
     .main-nav li:hover a,
     .main-nav li.active a {
         border: 2px solid #f5a425;
+        background-color: rgba(246, 183, 55, 0.95);
+        color: black;
+        border-radius: 50px;
     }
 
     @media (max-width: 950px) {

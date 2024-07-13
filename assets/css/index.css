@@ -2,17 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-#logowhite {
 
-    top: 0;
-    left: 5px;
-    width: 220px;
-    margin-top: none;
-    padding-bottom: 20px;
-    height: 100px;
-    position: fixed;
-    z-index: 1;
-}
 
 
 @media only screen and (max-width: 768px) {
