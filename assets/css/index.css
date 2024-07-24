@@ -329,16 +329,26 @@ html {
     .image-container1 img {
         max-width: 20% ;
     }
+    .image-container img {
+        display: none;
+    }
+
 }
 
 /* Styles for medium devices (tablets, 600px - 1023px) */
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
     .image-container1 img {
         max-width: 25% ;
-    }
-  
+    } 
 }
 
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    
+    .image-container img {
+        display: none;
+    }  
+}
 
 
 /* Styles for large devices (desktops, 1024px and up) */
@@ -445,3 +455,67 @@ html {
     border: 2px solid black;
     
   }
+
+  .our-services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #27005d;
+}
+
+.our-services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    border: 2px solid #ccc;
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+    max-width: calc(25% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 20px black;
+    
+}
+
+.service-item img {
+    display: flex;
+    position: relative;
+    left: 20%;
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .service-item {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .service-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+figcaption{
+    font-size: 18px;
+    margin: 10px;
+    color: #ccc;
+}

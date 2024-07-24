@@ -1193,15 +1193,15 @@
     /* Footer */
 
     footer {
-        background-color:#27005d;
+        background-color:#19191a;
         text-align: center;
+        padding-top: 20px;
     }
 
     footer p {
         margin-bottom: 0px;
-        padding: 25px 0px;
         color: #fff;
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 600;
         letter-spacing: 0.5px;
     }
