@@ -11,8 +11,10 @@
   <meta property="og:title" content="Devminds">
   <title>DevMinds Home</title>
   <link rel="icon" href="assets/images/Logo-wbg.png" type="image/icon type">
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -48,7 +50,7 @@
     <ul class="main-menu">
       <li><a class="external" href="index.html">Home</a></li>
       <li> <a class="external" href="blog.html">BLOG</a></li>
-      <li> <a class="external" href="gallery.html">Gallery</a></li>
+      <!-- <li> <a class="external" href="gallery.html">Gallery</a></li> -->
       <li class="external"><a href="aboutus.html" class="external">About Us</a>
 
       </li>
@@ -60,9 +62,9 @@
 
 <body>
 
-  
-
- <!-- <div id="overlay" class="overlay">  
+  <!--  
+  <div id="overlay" class="overlay">
+      
     <div class="card">
       <span class="close" onclick="closePopup()">&times;</span>
       <img src="assets/images/Data science  gif.gif" alt="Image">
@@ -72,10 +74,11 @@
         <br>
         <span style="font-weight: 800;">Limited slots only. Enroll Now! </span>
       </p>
+       
       <button id="popupbtn" onclick="window.location.href = 'internship.html'">Click here</button>
     </div>
-  </div> 
-  
+  </div>
+
   <script>
     // Function to open the popup
     function openPopup() {
@@ -86,36 +89,44 @@
     function closePopup() {
       document.getElementById("overlay").style.display = "none";
     }
-  </script> -->
+  </script>
+-->
 
-
- 
+  </div>
+  <div id="allBody">
     <!-- ***** Main Banner Area Start ***** -->
 
-    <section class="section main-banner" id="top"  data-section="section1">
-      <p class="intro-tagline">Empowering Minds for a Brighter Future</p>
-      <div id="homeheading">
-        
-      <h2 id="homeheading"><em>RE</em> - EVOLUTION</h2>
-    </div>    
-    
-      <div class="main-button">  
-            <div class="scroll-to-section"><a href="engineering.html">ENGINEERING</a></div>
-            <div class="scroll-to-section"><a href="junio.html">JUNIO</a></div>
+    <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+        <source src="assets/images/mainvid.mp4" type="video/mp4" id="bg-video" />
+      </video>
+      <div class="video-overlay header-text">
+        <div class="caption">
+          <h6><span style="color:#f5a425;">Dev</span>Minds</h6>
+          <h2><em>Re </em>- Evolution</h2>
+          <div class="main-button">
+            <div class="scroll-to-section"><a href="#bodysection">Explore</a></div>
+            <!-- <div class="scroll-to-section"><a href="junio.html">JUNIO</a></div> -->
+            <!-- <div class="scroll-to-section"><a href="junio.html">ProEdge</a></div> -->
+            <!-- <div class="scroll-to-section"><a href="junio.html">Events</a></div> -->
+
           </div>
-          
+
+
+
+        </div>
+      </div>
+
     </section>
     <!-- ***** Main Banner Area End ***** -->
 
 
 
 
-    <section class="bodySection" id="bodySection" data-section="section2">
 
-      <div class="container">
+    <section class="section main-banner" id="top" data-section="section1">
+      
 
-
-      </div>
     </section>
     <footer>
       <div class="container">
@@ -157,3 +168,4 @@
 </body>
 
 </html>
+
