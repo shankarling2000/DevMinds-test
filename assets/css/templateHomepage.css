@@ -1193,7 +1193,7 @@
     /* Footer */
 
     footer {
-        background-color: #000000;
+        background-color:#27005d;
         text-align: center;
     }
 
@@ -1202,7 +1202,6 @@
         padding: 25px 0px;
         color: #fff;
         font-size: 13px;
-        text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 0.5px;
     }
