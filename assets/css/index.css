@@ -336,10 +336,112 @@ html {
     .image-container1 img {
         max-width: 25% ;
     }
+  
 }
+
+
 
 /* Styles for large devices (desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
  
 }
 
+
+/*testimonials*/
+
+.testimonials-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color:#27005d;
+    border-top: 5px solid #341F97; /* Purple line on top */
+    
+  }
+  
+  .testimonials-section h2 {
+    color: aliceblue;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials-section p {
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    overflow-x: scroll;
+  
+
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #341F97 #f8f8f8; /* Firefox */
+  }
+  
+  .testimonials-container::-webkit-scrollbar {
+    height: 10px; /* height of horizontal scrollbar */
+  }
+  
+  .testimonials-container::-webkit-scrollbar-thumb {
+    background: #341F97;
+    border-radius: 10px;
+  }
+  
+  .testimonials-container::-webkit-scrollbar-track {
+    background: #f8f8f8;
+  }
+  
+  .testimonial-card {
+   
+    position:static;
+    flex: 0 0 auto;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+    padding-bottom: 10px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .testimonial-card img {
+    border: 2px solid black;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    position: relative;
+    left: 25%;
+  }
+  
+  .testimonial-content h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .testimonial-content h4 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    margin: 5px 0 15px;
+  }
+  
+  .testimonial-content p {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+  }
+
+  .testimonial-card:hover {
+    
+    background-color: #007BFF;
+    border: 2px solid black;
+    
+  }
