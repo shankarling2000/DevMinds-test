@@ -103,7 +103,7 @@ html {
     background-image: url(../images/choosing-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000000;
+    background-color: #27005d;
     padding-bottom: 100px;
     padding: 0px 30px 100px 30px;
 }
@@ -198,3 +198,148 @@ html {
     display: blockS;
 
 }
+
+
+/* General Container Styling */
+.contactusform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#27005d;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Form Styling */
+.form-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 30px;
+    background:#27005d; 
+    border: 5px solid #ddd;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.contactusform h6 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+#contactform {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactform label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#contactform input,
+#contactform textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contactform button {
+    padding: 10px;
+    background-color: #f6b737;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contactform button:hover {
+    color: white;
+     background-color: #007BFF;
+}
+
+/* Image Styling */
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+
+.image-container img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+    max-width: 50%;
+    height: 10rex;
+    border-radius: 8px;
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Zoom in the image slightly */
+    filter: grayscale(100%); /* Convert the image to black and white */
+  }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contactusform {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-container {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .image-container {
+        max-width: 100%;
+    }
+}
+
+.image-container1 {
+   margin-top: 40px;
+   margin-bottom: 40px;
+    display: flex;
+    background-color: #27005d;
+    justify-content: space-around; /* Adjust spacing between items */
+    align-items: center;
+    width: 100%;
+    gap: 10px; /* Decrease the space between images */
+    box-sizing: border-box;
+}
+.image-container1 img {
+    max-width: 10%; /* Make images responsive */
+    height: auto;
+    
+}
+
+
+
+@media only screen and (max-width: 599px) {
+    .image-container1 img {
+        max-width: 20% ;
+    }
+}
+
+/* Styles for medium devices (tablets, 600px - 1023px) */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+    .image-container1 img {
+        max-width: 25% ;
+    }
+}
+
+/* Styles for large devices (desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+ 
+}
+
