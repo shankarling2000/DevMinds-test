@@ -139,7 +139,8 @@ section.video1 {
     flex: 1;
     padding: 20px;
     text-align: justify;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    line-height: 1.6em;
     font-family: 'Jost', sans-serif;
     
 

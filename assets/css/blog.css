@@ -68,6 +68,12 @@
     overflow-x: scroll;
 }
 
+
+
+.container {   
+background-color: #f6b737;
+}
+
 .post {
     transition: all 0.5s ease;
     text-align: center;
@@ -83,6 +89,7 @@
   
     transform: scale(1.1);
     box-shadow: 10px 10px black;
+    border: 2px solid black;
 }
 
 
