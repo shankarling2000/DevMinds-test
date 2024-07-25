@@ -158,7 +158,7 @@
 
     .main-header {
         background-color: #27005d;
-        height: 90px;s
+        height: 90px;
         position: fixed;
         z-index: 12;
         width: 100%;
@@ -1190,26 +1190,7 @@
         }
     }
 
-    /* Footer */
 
-    footer {
-        background-color:#19191a;
-        text-align: center;
-        padding-top: 20px;
-    }
-
-    footer p {
-        margin-bottom: 0px;
-        color: #fff;
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: 0.5px;
-    }
-
-    footer p a,
-    footer p a:hover {
-        color: #f5a425;
-    }
 
     @media screen and (max-width: 992px) {
         .features {
@@ -1261,21 +1242,8 @@
         }
     }
 
-    @media screen and (max-width: 767px) {
-        footer p {
-            font-size: 12px;
-            font-weight: 600;
-            letter-spacing: 0.25px;
-        }
-    }
 
-    #logowhite {
-        max-height: 100%;
-        max-width: 100%;
-        display: block;
-        margin: auto;
-    }
-
+ 
 
 
     .allBody {

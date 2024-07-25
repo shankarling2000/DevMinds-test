@@ -2,17 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-#logowhite {
-
-    top: 10px;
-    left: 5px;
-    width: 230px;
-    margin-top: none;
-    padding-bottom: 20px;
-    height: 110px;
-    position: fixed;
-    z-index: 1;
-}
 
 
 @media only screen and (max-width: 768px) {
@@ -550,69 +539,3 @@ figcaption{
     color: #ccc;
 }
 
-
-.footer {
-    background-color: #19191a;
-    color: #ffffff;
-    padding: 40px 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.footer a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footer a:hover {
-    color: #ffd700;
-}
-
-.footer-column {
-    margin: 20px;
-    flex: 1;
-    min-width: 200px;
-}
-
-.footer-column h4 {
-    margin-bottom: 20px;
-    font-size: 18px;
-    border-bottom: 1px solid #333;
-    padding-bottom: 10px;
-}
-
-.footer-column ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-column ul li {
-    margin-bottom: 10px;
-}
-
-.footer-bottom {
-    border-top: 1px solid aliceblue;
-    color: aliceblue;
-    text-align: center;
-    margin-top: 0px;
-    background-color: #19191a;
-}
-
-.social-icons {
-    display: flex;
-    left: 20%;
-    gap: 15px;
-}
-
-.social-icons a {
-    width: 100px;
-    height: 100px;
-    transition: transform 0.3s;
-}
-
-.social-icons a img:hover {
-    transform: scale(1.1);
-}

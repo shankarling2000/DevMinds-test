@@ -1,20 +1,10 @@
 html {
     scroll-behavior: smooth;
     transition: all 0.8s ease;
+    font-family: "Jost", 'sans-serif';
 
 }
 
-#logowhite {
-
-    top: 0;
-    left: 5px;
-    width: 220px;
-    margin-top: none;
-    padding-bottom: 20px;
-    height: 100px;
-    position: fixed;
-    z-index: 1;
-}
 
 @media only screen and (max-width: 768px) {
 
@@ -57,25 +47,31 @@ html {
 
 
 section.courses {
-    background-image: url(../images/wallpaper.jpg);
+    
     background-repeat: repeat;
     background-size: cover;
-    background-color: #000000;
-    padding-bottom: 100px;
-    padding: 0px 30px 100px 30px;
+    background-color:aliceblue;
 }
 
 
 
-section.video {
-    background-image: url(../images/wallpaper.jpg);
+section.video1 {
+    background-color: transparent;
     background-repeat: repeat;
     background-size: cover;
-    background-color: #000000;
     padding: 120px 0px;
 }
 
 
+#aboutusimg{
+    margin-left: 20px;
+   
+}
+
+#aboutusimg:hover{
+   box-shadow: 10px 20px black;
+   
+}
 
 @media screen and (max-width: 767px) {
 
@@ -108,6 +104,16 @@ section.video {
     margin-bottom: auto;
     /* Vertical alignment */
 }
+#aboutusdiv1 {
+    background-color: #27005D;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: inherit;
+    column-gap: 10%;
+    margin-bottom: auto;
+    /* Vertical alignment */
+}
 
 .image {
     margin-top: 10%;
@@ -119,14 +125,28 @@ section.video {
 }
 
 .text {
+    color: rgb(0, 0, 0);
     flex: 1;
     padding: 20px;
     text-align: justify;
-    font-size: larger;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Rubik', sans-serif;
+    font-size: 1.4em;
+    font-family: 'Jost', sans-serif;
+
 }
+
+.text1 {
+    color: aliceblue;
+    width: 5%;
+    flex: auto;
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.4em;
+    font-family: 'Jost', sans-serif;
+    
+
+}
+
+
 
 #textslogan {
     font-weight: 800;
@@ -152,6 +172,14 @@ section.video {
         /* Stack items vertically on smaller screens */
         text-align: center;
     }
+    
+    #aboutusdiv1 {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        text-align: center;
+    }
 
     .image {
         max-width: 100%;
@@ -164,6 +192,13 @@ section.video {
         padding: 20px;
 
     }
+    
+    .text1 {
+        text-align: none;
+        padding: 20px;
+
+    }
+
 
 
 }
@@ -180,12 +215,22 @@ section.video {
     }
 
     #aboutusdiv {
+        color: black;
         margin-top: 10%;
         display: flex;
         flex-direction: column;
         /* Stack items vertically on smaller screens */
         text-align: center;
     }
+    #aboutusdiv1 {
+        color: black;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        text-align: center;
+    }
+
 
     .image {
         max-width: 100%;
@@ -194,8 +239,17 @@ section.video {
     }
 
     .text {
+        color: black;
         padding: 20px;
         text-align: none;
+        font-size: small;
+
+    }
+    .text1 {
+        color: white;
+        padding: 20px;
+        text-align: none;
+        font-size: small;
 
     }
 }
@@ -221,6 +275,15 @@ section.video {
         /* Stack items vertically on smaller screens */
         text-align: center;
     }
+    
+    #aboutusdiv1 {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        text-align: center;
+    }
+
 
     .image {
         padding: none;
@@ -232,6 +295,13 @@ section.video {
     .text {
         padding: 5px;
         text-align: none;
+        width: -moz-available;
+
+    }
+    .text1 {
+        padding: 5px;
+        text-align: none;
+        width: -moz-available;
 
     }
 }
@@ -256,6 +326,13 @@ section.video {
         /* Stack items vertically on smaller screens */
         text-align: center;
     }
+    #aboutusdiv1 {
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        text-align: center;
+    }
 
     .image {
         max-width: 100%;
@@ -267,7 +344,16 @@ section.video {
         padding: 20px;
 
     }
+    .text1 {
+        padding: 20px;
+
+    }
 }
+
+
+
+
+
 
 
 
@@ -348,7 +434,7 @@ section.video {
 .bar {
     width: 0;
     height: 100%;
-    background-color: #007BFF;
+    background-color: #f4f4f4;
     /* Change to your preferred color */
     position: absolute;
     top: 0;
@@ -377,8 +463,9 @@ section.video {
     margin-top: none;
     font-size: medium;
     text-align: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin: auto;
+    margin-bottom: 10px;
 
 
 }
@@ -390,7 +477,7 @@ section.video {
     height: 10%;
     width: 10%;
     margin-top: auto;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 
@@ -427,4 +514,32 @@ section.video {
         height: 150px;
         /* Keep the spacing constant for larger screens */
     }
+}
+
+
+
+.bar1 {
+    width: 0;
+    height: 100%;
+    background-color: rgb(39, 0, 93);
+    /* Change to your preferred color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Hover effect */
+.divider1:hover .bar1 {
+    width: 100%;
+}
+
+.divider1 {
+    width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: none;
 }
