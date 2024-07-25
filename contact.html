@@ -66,15 +66,31 @@
             </video>
             <div class="video-overlay header-text">
                 <div class="caption">
+                    <h4 id="contactformheading">Write to us your queries, our team will assist you</h4>
                     <div class="main-button">
+                        
                         <div class="form-container">
                             <h6>Contact us</h6>
                             <form id="contactform" action="https://formspree.io/f/xvojkgpj" method="POST">
+                                <label>Your Name:</label>
+                                <input type="text" name="name" id="name" required>
+                        
+                                <label>Your Interest:</label>
+                                <select name="interest" id="interest" required>
+                                    <option value="">Select an option</option>
+                                    <option value="course">I'm interested in a course</option>
+                                    <option value="internship">I'm interested in an Internship</option>
+                                    <option value="school_PDP">I'm a school, interested in PDP</option>
+                                    <option value="college_training">I'm a college, interested in training programs</option>
+                                    <option value="digital_services">I'm interested in digital services</option>
+                                    <option value="other">Other</option>
+                                </select>
+                        
                                 <label>Your Email:</label>
                                 <input type="email" name="email" id="email" required>
-
+                        
                                 <label>Your Phone:</label>
-                                <input type="text" name="text" id="phone" required>
+                                <input type="text" name="phone" id="phone" required>
 
                                 <label>Your Message:</label>
                                 <textarea name="message" rows="4" id="message" required></textarea>
@@ -82,6 +98,7 @@
                                 <button type="submit">Send</button>
                             </form>
                         </div>
+                        
                     </div>
                 </div>
             </div>
