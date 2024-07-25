@@ -136,11 +136,10 @@ section.video1 {
 
 .text1 {
     color: aliceblue;
-    width: 5%;
-    flex: auto;
+    flex: 1;
     padding: 20px;
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-family: 'Jost', sans-serif;
     
 
@@ -254,7 +253,7 @@ section.video1 {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
 
     #textslogan {
         font-size: medium;
