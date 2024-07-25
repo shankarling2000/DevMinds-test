@@ -276,7 +276,7 @@ html {
 .image-container img {
     transition: transform 0.5s ease, filter 0.5s ease;
     max-width: 50%;
-    height: 10rex;
+    height: 50%;
     border-radius: 8px;
 }
 
