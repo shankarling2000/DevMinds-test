@@ -46,7 +46,7 @@
     }
 
     .section-heading h2 {
-        margin-top: 100px;
+        
         position: relative;
         font-size: 18px;
         font-weight: 500;
@@ -139,6 +139,9 @@
         }
     }
 
+    #privacy{
+        color: aliceblue;
+    }
     /* Header */
 
     @media screen and (max-width: 1050px) {
@@ -270,6 +273,9 @@
         border: 2px solid #f5a425;
     }
 
+
+  
+    
     @media (max-width: 950px) {
 
         .main-nav li:hover a,
@@ -281,6 +287,8 @@
 
 
     .main-banner .caption {
+       
+        margin-top: 95px;
         text-align: left;
         position: absolute;
         width: 80%;
@@ -291,7 +299,7 @@
 
     .main-banner .caption h6 {
         text-align: center;
-        margin-top: 0px;
+        
         font-size: 20px;
         text-transform: uppercase;
         font-weight: 600;
@@ -776,7 +784,7 @@
         .main-banner {
             position: relative;
             max-height: 100%;
-            overflow: hidden;
+            overflow: scroll;
             margin-bottom: -7px;
         }
 
@@ -900,7 +908,8 @@
             box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
             width: 80%;
             max-width: 600px;
-            margin: 0 auto;
+            
+       
         }
 
         .form-container label {
@@ -969,9 +978,7 @@
 }
 
 #contactformheading{
-    margin-top:20px ;
+    margin-top:90px;
     color: aliceblue;
 }
 
-
-        
