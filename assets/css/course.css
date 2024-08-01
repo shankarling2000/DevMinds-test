@@ -8,6 +8,7 @@ body {
 
 /* Section 1: Intro with video */
 .intro-section {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +16,7 @@ body {
 }
 
 .intro-content {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +36,19 @@ body {
 }
 
 .intro-video {
-    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 0;
+    padding-bottom: 50.25%; /* 16:9 aspect ratio */
+}
+
+.intro-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Section 2: Courses */
@@ -55,7 +69,8 @@ body {
 }
 
 .course-card {
-    background: black;
+    background: aliceblue;
+  color: black;
     border-radius: 10px;
     margin: 10px;
     padding: 20px;
@@ -116,7 +131,7 @@ input, select, textarea {
     color: aliceblue;
     margin-top: 5px;
     padding: 10px;
-    width: 80%;
+    width: 50%;
 }
 
 button[type="submit"] {
@@ -149,15 +164,67 @@ button[type="submit"] {
 /* Mobile */
 @media (max-width: 599px) {
     .intro-section {
+        margin-top: 30px;
+        font-size: small;
         flex-direction: column;
         text-align: center;
     }
 
     .intro-text, .intro-video {
+        font-size: small;
         width: 100%;
     }
 
     .course-card {
+        font-size: smaller;
         width: 100%;
+    }
+}
+
+.descript{
+
+    font-size: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}  
+
+
+.des-section{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+   
+}
+
+.testimonial-card {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.testimonial-card p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.testimonial-card footer {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .testimonial-card {
+        padding: 15px;
+    }
+    .testimonial-card p {
+        font-size: 0.9em;
     }
 }
