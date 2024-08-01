@@ -300,7 +300,7 @@ html {
 }
 
 .image-container1 img {
-    max-width: 10%; /* Make images responsive */
+    max-width: 9%; /* Make images responsive */
     height: auto;
 }
 
