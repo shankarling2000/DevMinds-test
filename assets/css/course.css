@@ -1,0 +1,163 @@
+body {
+    background: rgba(39, 0, 93);
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding-top: 90px; /* Adjust according to navbar height */
+}
+
+/* Section 1: Intro with video */
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-text {
+    margin-bottom: 20px;
+}
+
+.intro-text h1 {
+    font-size: 2em;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+}
+
+.intro-video {
+    text-align: center;
+}
+
+/* Section 2: Courses */
+.courses-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.courses-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-card {
+    background: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.course-card img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.course-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.course-card p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.sign-up-button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* Section 3: Contact Form */
+.contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    background: rgba(39, 0, 93);
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-top: 5px;
+    padding: 10px;
+    width: 80%;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 900px) {
+    .intro-section {
+        flex-direction: column;
+    }
+
+    .intro-text, .intro-video {
+        width: 100%;
+    }
+
+    .course-card {
+        width: 45%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 599px) {
+    .intro-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-text, .intro-video {
+        width: 100%;
+    }
+
+    .course-card {
+        width: 100%;
+    }
+}
