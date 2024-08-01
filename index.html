@@ -63,7 +63,7 @@
 <body>
 
 
-  <div id="overlay" class="overlay">
+  <!-- <div id="overlay" class="overlay">
       
     <div class="card">
       <span class="close" onclick="closePopup()">&times;</span>
@@ -84,9 +84,9 @@
        
       
     </div>
-  </div>
+  </div> -->
 
-  <script>
+  <!-- <script>
     // Function to open the popup
     function openPopup() {
       document.getElementById("overlay").style.display = "block";
@@ -98,7 +98,7 @@
     }
   </script>
 
- 
+  -->
   <div id="allBody">
     <!-- ***** Main Banner Area Start ***** -->
 
@@ -253,10 +253,10 @@
         <div class="form-container">
           <h6>Contact us</h6>
           <form id="contactform" action="https://formspree.io/f/xvojkgpj" method="POST">
-              <label>Your Name:</label>
-              <input type="text" name="name" id="name" required>
+              <!-- <label> Name:</label> -->
+              <input type="text" name="name" id="name" placeholder="Name"  required>
       
-              <label>Your Interest:</label>
+              <label>Interest:</label>
               <select name="interest" id="interest" required>
                   <option value="">Select an option</option>
                   <option value="course">I'm interested in a course</option>
@@ -267,14 +267,14 @@
                   <option value="other">Other</option>
               </select>
       
-              <label>Your Email:</label>
-              <input type="email" name="email" id="email" required>
+              <label>Email:</label>
+              <input type="email" name="email" id="email"  placeholder="Email" required>
       
-              <label>Your Phone:</label>
-              <input type="text" name="phone" id="phone" required>
+              <label>Phone:</label>
+              <input type="text" name="phone" id="phone"  placeholder="Phone" required>
 
-              <label>Your Message:</label>
-              <textarea name="message" rows="4" id="message" required></textarea>
+              <label>Message:</label>
+              <textarea name="message" rows="4" id="message"  placeholder="Comment" required></textarea>
               <!-- your other form fields go here -->
               <button type="submit">Send</button>
           </form>
