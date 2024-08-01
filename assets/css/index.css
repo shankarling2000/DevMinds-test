@@ -515,3 +515,7 @@ figcaption {
         height: 450px;
     }
 }
+
+.close{
+    color: white;
+}
