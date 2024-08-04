@@ -151,7 +151,7 @@ section.video1 {
 #textslogan {
     font-weight: 800;
     margin-top: 5%;
-    font-size: larger;
+    font-size: x-large;
 }
 
 @media (max-width: 480px) {

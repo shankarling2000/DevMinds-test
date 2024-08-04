@@ -63,7 +63,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #f6b737;
+    background-color: white
 }
 
 .post {
@@ -92,7 +92,6 @@
 }
 
 .posts:hover {
-    color: #f6b737;
     text-decoration: none;
     transform: scale(1.1);
 }
@@ -129,9 +128,6 @@
     line-height: 1.5em;
 }
 
-#blogheadingid {
-    background-color: #f6b737;
-}
 
 /* Responsive adjustments */
 @media only screen and (max-width: 768px) {
