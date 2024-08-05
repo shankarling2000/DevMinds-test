@@ -228,3 +228,7 @@ button[type="submit"] {
         font-size: 0.9em;
     }
 }
+
+#courseimg{
+    border: 1px solid black ;
+}
