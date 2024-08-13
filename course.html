@@ -62,8 +62,9 @@
               <p>Explore our range of courses designed to help you master the skills you need.</p>
           </div>
           <div class="intro-video">
-              <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+            <iframe src="https://www.youtube.com/embed/9AfYgHsYD3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
       </div>
   </section>
      
@@ -87,12 +88,12 @@
           <!-- Card 1 -->
           <div class="course-card">
               <img id="courseimg" src="./assets/images/webdev.png" alt="Course 1">
-              <div class="overlay-text">Course Title 1</div>
+              <div class="overlay-text">Hands-on Training</div>
           </div>
           <!-- Card 2 -->
           <div class="course-card">
               <img id="courseimg" src="./assets/images/robotics.png" alt="Course 2">
-              <div class="overlay-text">Course Title 2</div>
+              <div class="overlay-text">Hands-on training</div>
           </div>
           <!-- Card 3 -->
           <div class="course-card">
@@ -131,8 +132,8 @@
   <div class="divider"></div>
   <!-- Section 2: Courses -->
   <section class="courses-section">
-      <h2 id="coursehead">H.E.A.L</h2>
-<p id="coursedes" >Health, Education, Administration, Literacy</p>
+      <h2 id="coursehead">P.E.A.R.L</h2>
+<p id="coursedes" > Public Speaking, Emotional Intelligence, Articulation, Relationship Building, Leadership</p>
       <div class="course-cards">
           <!-- Card 1 -->
           <div class="course-card">
@@ -144,19 +145,27 @@
               <img id="courseimg" src="./assets/images/robotics.png" alt="Course 2">
               <div class="overlay-text">Course Title 2</div>
           </div>
+                    <!-- Card 4 -->
+                    <div class="course-card">
+                      <img id="courseimg" src="./assets/images/esiot.png" alt="Course 4">
+                      <div class="overlay-text">Course Title 4</div>
+                  </div>
+          
           <!-- Card 3 -->
           <div class="course-card">
               <img id="courseimg" src="./assets/images/aiml.png" alt="Course 3">
               <div class="overlay-text">Course Title 3</div>
           </div>
 
-           <!-- Card 4 -->
-           <div class="course-card">
-            <img id="courseimg" src="./assets/images/esiot.png" alt="Course 4">
-            <div class="overlay-text">Course Title 4</div>
-        </div>
+ 
+             <!-- Card 7 -->
+     <div class="course-card">
+      <img id="courseimg" src="./assets/images/devops.png" alt="Course 7">
+      <div class="overlay-text">Course Title 7</div>
+  </div>
 
-         <!-- Card 5 -->
+
+        <!-- Card 5 -->
          <div class="course-card">
           <img id="courseimg" src="./assets/images/genai.png" alt="Course 5">
           <div class="overlay-text">Course Title 5</div>
@@ -168,45 +177,53 @@
         <div class="overlay-text">Course Title 6</div>
     </div>
 
-     <!-- Card 7 -->
-     <div class="course-card">
-      <img id="courseimg" src="./assets/images/devops.png" alt="Course 7">
-      <div class="overlay-text">Course Title 7</div>
-  </div>
+
 
       </div>
   </section>
 
  <div class="divider"></div>
 
-
-  <!-- Section 3: Contact Form -->
-  <section class="contact-section">
-      <h2>Get a Quote</h2>
-      <form>
-          <label for="institution-name">Institution Name:</label>
+<!-- Section 3: Contact Form -->
+<section class="contact-section">
+  <h2 id="askus1" >Need Help?</h2>
+  <h2 id="askus2">Ask us anything</h2>
+  <form>
+      <div class="form-group">
+          <label for="institution-name">Institution Name</label>
           <input type="text" id="institution-name" name="institution-name" required>
+      </div>
 
-          <label for="contact-name">Contact Name:</label>
+      <div class="form-group">
+          <label for="contact-name">Contact Name</label>
           <input type="text" id="contact-name" name="contact-name" required>
+      </div>
 
-          <label for="email">Email:</label>
+      <div class="form-group">
+          <label for="email">Email</label>
           <input type="email" id="email" name="email" required>
+      </div>
 
-          <label for="course-interest">Course of Interest:</label>
+      <div class="form-group">
+          <label for="course-interest">Course of Interest</label>
           <select id="course-interest" name="course-interest" required>
-              <option value="course1">Course 1</option>
-              <option value="course2">Course 2</option>
-              <option value="course3">Course 3</option>
+              <option value="" disabled selected>Select a course</option>
+              <option value="course1">S.T.E.M</option>
+              <option value="course2">P.E.A.R.L</option>
+              <option value="course3">Something else</option>
               <!-- Add more options as needed -->
           </select>
+      </div>
 
-          <label for="message">Message:</label>
+      <div class="form-group">
+          <label for="message">Message</label>
           <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
 
-          <button type="submit">Submit</button>
-      </form>
-  </section>
+      <button type="submit" class="submit-button">Submit</button>
+  </form>
+</section>
+
 
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
@@ -235,5 +252,47 @@
   <script src="assets/js/custom.js"></script>
 
 </body>
+<footer class="footer">
+  <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html">Testimonials</a></li>
+          <li><a href="course.html">Services</a></li>
+      </ul>
+  </div>
+  <div class="footer-column">
+      <h4>Services</h4>
+      <ul>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">DevMinds PDP</a></li>
+          <li><a href="#">Workshops & Training</a></li>
+          <li><a href="#">Software Solutions</a></li>
+      </ul>
+  </div>
+  <div class="footer-column">
+      <h4>Contact</h4>
+      <ul>
+          <li>Phone: <a href="tel:+919764205878">+91 8624086730</a></li>
+          <li>Email: <a href="mailto:devminds.in@gmail.com">devminds.in@gmail.com</a></li>
+          <li>Address: Bangalore, India</li>
+      </ul>
+  </div>
+  <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+          <a href="https://www.linkedin.com/company/dev-minds" target=”_blank” class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/devminds.in/" target=”_blank” class="fa fa-instagram"></a>
+          <a href="https://www.youtube.com/@devmindsyt" target=”_blank” class="fa fa-youtube"></a>
+          <a href="mailto:devminds.in@gmail.com"  target=”_blank” class="fa fa-google"></a>
+          <a href="#" target=”_blank” class="fa fa-twitter"></a>
+      </div>
+  </div>
+</footer>
 
+<div class="footer-bottom">
+  <p style="margin: 5px;">All Rights Reserved ©2023</p>
+  <a href="privacy.html" id="privacy">Privacy Policy</a>
+</div>
 </html>

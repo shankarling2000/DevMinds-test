@@ -130,37 +130,6 @@ body {
     margin-bottom: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-label {
-    font-size: 1em;
-    margin-top: 10px;
-}
-
-input, select, textarea {
-    background: rgba(39, 0, 93);
-    border: 1px solid #007BFF;
-    border-radius: 5px;
-    color: aliceblue;
-    margin-top: 5px;
-    padding: 10px;
-    width: 50%;
-}
-
-button[type="submit"] {
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    margin-top: 20px;
-    padding: 10px 20px;
-}
 
 /* Media Queries for Responsiveness */
 
@@ -265,3 +234,130 @@ button[type="submit"] {
     margin-top: 5% ; /* Optional margin for spacing */
   }
   
+
+  /* Minimalist and Elegant Form Styling */
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(39, 0, 93, 0.8);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+   
+    color: aliceblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    color: black;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 900px) {
+    .contact-section {
+        padding: 30px 15px;
+        max-width: 500px;
+    }
+
+    .contact-section h2 {
+        font-size: 1.8em;
+    }
+
+    input, select, textarea {
+        font-size: 0.95em;
+        padding: 8px;
+    }
+
+    .submit-button {
+        padding: 8px 18px;
+        font-size: 1em;
+    }
+}
+
+/* Mobile */
+@media (max-width: 599px) {
+    .contact-section {
+        padding: 20px 10px;
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .contact-section h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    input, select, textarea {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .submit-button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
+
+#askus2{
+    margin-bottom: 40px;
+}
+
+
+#askus1{
+    margin-bottom: 5px;
+}
