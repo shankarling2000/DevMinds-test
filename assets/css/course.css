@@ -361,3 +361,7 @@ input:focus, select:focus, textarea:focus {
 #askus1{
     margin-bottom: 5px;
 }
+
+#privacy {
+    color: aliceblue;
+}
