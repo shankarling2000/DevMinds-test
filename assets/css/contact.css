@@ -1,4 +1,8 @@
 /* Form Container */
+.main-banner{
+    top: 90px;
+}
+
 .form-container {
     max-width: 500px;
     margin: 0 auto;
