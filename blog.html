@@ -21,8 +21,42 @@
 
 
 <body class="allBodyblog">
-
-
+    <div id="overlay" class="overlay">
+      
+        <div class="card1">
+          <span class="close" onclick="closePopup()">&times;</span>
+    
+          <h5>Sign Up to Newsletter</h5>
+          <p>Find the best writes here, worded by learners, teachers, experts, and leaders from around the globe.
+            <br>
+            <div class="form-container1">
+              <form id="contactform" action="https://formspree.io/f/xvojkgpj" method="POST">
+                  <input type="email" name="email" id="email" placeholder="Email" required>
+         
+                  <button id="popupbtn" type="submit">Sign up</button>
+              </form>
+          </div>
+    
+            <span style="font-weight: 800;">Limited slots only. Enroll Now! </span>
+          </p>
+           
+          
+        </div>
+      </div>
+    
+    <script>
+        // Function to open the popup
+        function openPopup() {
+          document.getElementById("overlay").style.display = "block";
+        }
+    
+        // Function to close the popup
+        function closePopup() {
+          document.getElementById("overlay").style.display = "none";
+        }
+      </script>
+    
+    
 
     
 <header class="main-header clearfix" role="header">
@@ -41,6 +75,7 @@
         </ul>
     </nav>
 </header>
+
 
 <section class="section main1-banner" id="top" data-section="section1">
     <div id="blogheadingid">
