@@ -154,7 +154,14 @@ section.video1 {
     font-size: x-large;
 }
 
+
+
+
 @media (max-width: 480px) {
+    .intro-section {
+        margin: 10%; 
+        
+    }
 
     #aboutusheading {
         text-align: center;
@@ -255,6 +262,7 @@ section.video1 {
 }
 
 @media (max-width: 375px) {
+
 
     #textslogan {
         font-size: medium;
@@ -489,6 +497,11 @@ section.video1 {
 
 /* Media queries for responsiveness */
 @media only screen and (max-width: 300px) {
+    .intro-section {
+        margin: 5%; 
+        
+    }
+
     .bulbs img {
         width: 30px;
         /* Adjust the size for smaller screens (mobiles) */
@@ -498,6 +511,8 @@ section.video1 {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
+    
+
     .bulbs img {
         width: 100px;
         /* Adjust the size for medium-sized screens (tablets) */
@@ -587,4 +602,21 @@ section.video1 {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+
+@media only screen and (min-width: 250px) and (max-width: 600px) {
+    .intro-section {
+        margin: 10%;
+        font-size: small; 
+        padding: none;
+    }
+
+    .intro-video{
+        max-width: 100%;
+     
+
+    }
+
 }
