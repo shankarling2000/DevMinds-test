@@ -290,7 +290,8 @@
     /* Slider */
 
     .main-banner {
-        background-color: white;
+        background-color: transparent;
+        background-image: url(/assets/images/checkered\ bg.jpg);
         position: relative;
         max-height: 100%;
         overflow: scroll;
