@@ -139,7 +139,7 @@ section.video1 {
     margin-top: auto;
     margin-bottom: auto;
     flex: 1;
-    border-radius: 2%;
+    border-radius: 3%;
 
     /* Take up 50% of the container width */
 }
