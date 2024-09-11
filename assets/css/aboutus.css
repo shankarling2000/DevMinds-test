@@ -63,10 +63,6 @@ section.video1 {
 }
 
 
-#aboutusimg{
-    margin-left: 20px;
-   
-}
 
 #aboutusimg:hover{
    box-shadow: 10px 20px black;
@@ -101,23 +97,35 @@ section.video1 {
     align-items: center;
     padding: inherit;
     column-gap: 10%;
-    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    
     /* Vertical alignment */
 }
 #aboutusdiv1 {
+    display: flex;
     background-color: #27005D;
     color: aliceblue;
-    display: flex;
     align-items: center;
     padding: inherit;
     column-gap: 10%;
-    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+   
     /* Vertical alignment */
 }
 
+.aboutus{
+    background-color: #27005D;
+  padding: 30px;    
+}
+
+
+
 .image {
-    margin-top: 10%;
-    margin-bottom: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
     flex: 1;
     border-radius: 2%;
 
@@ -139,8 +147,8 @@ section.video1 {
     flex: 1;
     padding: 20px;
     text-align: justify;
-    font-size: 1.4em;
-    line-height: 1.6em;
+    font-size: 1.2em;
+    line-height: 1.5em;
     font-family: 'Jost', sans-serif;
     
 
@@ -173,7 +181,10 @@ section.video1 {
     }
 
     #aboutusdiv {
-        margin-top: 10%;
+        margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    
         display: flex;
         flex-direction: column;
         /* Stack items vertically on smaller screens */
@@ -181,7 +192,10 @@ section.video1 {
     }
     
     #aboutusdiv1 {
-        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        
         display: flex;
         flex-direction: column;
         /* Stack items vertically on smaller screens */
@@ -513,6 +527,11 @@ section.video1 {
 @media only screen and (min-width: 300px) and (max-width: 900px) {
     
 
+.image{
+    margin-top: 10%;
+}
+
+
     .bulbs img {
         width: 100px;
         /* Adjust the size for medium-sized screens (tablets) */
@@ -561,7 +580,10 @@ section.video1 {
 
 /* Section 1: Intro with video change margin for intro section */
 .intro-section {
-    margin: 5%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 5%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -608,7 +630,7 @@ section.video1 {
 
 @media only screen and (min-width: 250px) and (max-width: 600px) {
     .intro-section {
-        margin: 10%;
+        
         font-size: small; 
         padding: none;
     }
@@ -618,5 +640,15 @@ section.video1 {
      
 
     }
+
+}
+
+
+
+@media only screen and (min-width: 247px) and (max-width: 599px) {
+
+.intro-section{
+    margin-top: 90px;
+}
 
 }
