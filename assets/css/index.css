@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -79,7 +82,7 @@ html {
     background-image: url(../images/choosing-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #27005d;
+    background-color: #ffffff;
     padding-bottom: 100px;
     padding: 0px 30px 100px 30px;
 }
@@ -244,10 +247,7 @@ html {
     background-color: #007BFF;
 }
 
-#top {
-    border-top:2px solid #341F97;
-    border-bottom: 2px solid #341F97;
-}
+
 
 /* Image Styling */
 .image-container {
@@ -292,7 +292,7 @@ html {
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
-    background-color: #27005d;
+    background-color: white;
     justify-content: space-around; /* Adjust spacing between items */
     align-items: center;
     width: 100%;
@@ -301,13 +301,16 @@ html {
 }
 
 .image-container1 img {
-    max-width: 9%; /* Make images responsive */
-    height: auto;
+    max-width: 10%; /* Make images responsive */
+    height: auto; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
 }
 
 @media only screen and (max-width: 599px) {
     .image-container1 img {
-        max-width: 20%;
+        max-width: 25%;
     }
     .image-container img {
         display: none;
@@ -321,7 +324,7 @@ html {
 /* Styles for medium devices (tablets, 600px - 1023px) */
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
     .image-container1 img {
-        max-width: 25%;
+        max-width: 20%;
     }
     .testimonial-card {
         width: 450px;
@@ -455,13 +458,15 @@ figcaption {
 .our-services {
     padding: 50px 20px;
     text-align: center;
-    background-color: #27005d;
+    background-color: white;
 }
 
 .our-services h2 {
     font-size: 2.5rem;
     margin-bottom: 60px;
-    color: aliceblue;
+    color: black;
+    text-shadow: -1px -1px 0 rgb(183, 183, 183), 1px -1px 0 rgb(216, 216, 216), 1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
 }
 
 .services-container {
@@ -471,7 +476,7 @@ figcaption {
 }
 
 .service-item {
-    border: 2px solid #ccc;
+    border: 2px solid #000000;
     flex: 1 1 calc(25% - 20px);
     margin: 10px;
     max-width: calc(20% - 50px);
@@ -517,6 +522,6 @@ figcaption {
     }
 }
 
-#lgs{
+/* #lgs{
     margin: 30px;
-}
+} */
