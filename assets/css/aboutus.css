@@ -1,8 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    
 html {
     scroll-behavior: smooth;
     transition: all 0.8s ease;
     font-family: "Jost", 'sans-serif';
 
+}
+
+body{
+    background-color: #27005D;
 }
 
 
@@ -88,7 +95,10 @@ section.video1 {
 }
 
 #aboutusheading {
+    margin-bottom:20px;
     font-size: 2em;
+    font-family: "IBM Plex Sans", sans-serif;
+    
 }
 
 #aboutusdiv {
@@ -157,6 +167,7 @@ section.video1 {
 
 
 #textslogan {
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 800;
     margin-top: 5%;
     font-size: x-large;
@@ -580,6 +591,7 @@ section.video1 {
 
 /* Section 1: Intro with video change margin for intro section */
 .intro-section {
+    
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 100px;
@@ -600,15 +612,19 @@ section.video1 {
 
 .intro-text {
     margin-bottom: 20px;
+    color: aliceblue;
     margin-top: 5%;
 }
 
 .intro-text h1 {
-    font-size: 2em;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2.5em;
 }
 
 .intro-text p {
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 1.2em;
+
 }
 
 .intro-video {
