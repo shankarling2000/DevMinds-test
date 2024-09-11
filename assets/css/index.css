@@ -33,6 +33,8 @@ html {
     margin: 2%;
 }
 
+
+
 #contact-form {
     background: grey;
     margin-bottom: 5%;
@@ -121,17 +123,37 @@ html {
 .main-button a {
     background-color: #f5a425;
     color: #fff;
-    border-radius: 50px;
-    font-size: 16px;
+    border-radius: 10px;
+    font-size: 20px;
     min-width: 200px;
     margin: 4px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    letter-spacing: 1.5px;
     font-weight: 700;
     padding: 12px 20px;
     display: block;
     outline: none;
     text-align: center;
+}
+
+
+
+.main-button a:hover {
+    transform: scale(1.1);
+}
+
+
+#mainhead{
+    color: #fff;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+#maintitle{
+    margin: 3%;
+    font-size: 2em;
+    color: #fff;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 /* Styles for the overlay */
@@ -348,6 +370,9 @@ html {
 
 /* Testimonials Section */
 
+
+
+
 .testimonials-section {
     text-align: center;
     padding: 50px 20px;
@@ -448,7 +473,7 @@ html {
 }
 
 figcaption {
-    font-size: 18px;
+    font-size: 23px;
     margin: 10px;
     color: #ccc;
 }
@@ -494,9 +519,22 @@ figcaption {
     transition: transform 0.3s ease;
 }
 
+
+
 .service-item:hover {
     transform: translateY(-10px);
-    box-shadow: 10px 20px black;
+    box-shadow: 10px 15px black;
+    color: #f5a425;
+}
+
+
+figcaption{
+    color: #000000;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+figcaption:hover{
+    color: #f5a425;
 }
 
 .service-item img {
