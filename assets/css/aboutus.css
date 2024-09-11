@@ -600,6 +600,7 @@ section.video1 {
 
 .intro-text {
     margin-bottom: 20px;
+    margin-top: 5%;
 }
 
 .intro-text h1 {
@@ -645,10 +646,10 @@ section.video1 {
 
 
 
-@media only screen and (min-width: 247px) and (max-width: 599px) {
+@media only screen and (min-width: 247px) and (max-width: 800px) {
 
 .intro-section{
-    margin-top: 90px;
+    margin-top: 110px;
 }
 
 }
