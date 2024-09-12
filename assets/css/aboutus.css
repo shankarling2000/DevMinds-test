@@ -517,11 +517,11 @@ section.video1 {
 }
 
 
-
 .bulbs {
     display: flex;
     justify-content: center;
 }
+
 
 /* Media queries for responsiveness */
 @media only screen and (max-width: 300px) {
@@ -530,6 +530,7 @@ section.video1 {
         
     }
 
+ 
     .bulbs img {
         width: 30px;
         /* Adjust the size for smaller screens (mobiles) */
@@ -537,7 +538,6 @@ section.video1 {
         /* Adjust the spacing for smaller screens */
     }
 }
-
 @media only screen and (min-width: 300px) and (max-width: 900px) {
     
 
@@ -546,23 +546,25 @@ section.video1 {
 }
 
 
-    .bulbs img {
-        width: 100px;
-        /* Adjust the size for medium-sized screens (tablets) */
-        height: 100px;
-        /* Adjust the spacing for medium-sized screens */
-    }
+.bulbs img {
+    width: 100px;
+    /* Adjust the size for medium-sized screens (tablets) */
+    height: 100px;
+    /* Adjust the spacing for medium-sized screens */
+}
 }
 
 /* Add more media queries as needed for larger screens (laptops, desktops) */
 @media only screen and (min-width: 1025px) {
-    .bulbs img {
-        width: 150px;
-        /* Adjust the size for medium-sized screens (tablets) */
-        height: 150px;
-        /* Keep the spacing constant for larger screens */
-    }
+.bulbs img {
+    width: 150px;
+    /* Adjust the size for medium-sized screens (tablets) */
+    height: 150px;
+    /* Keep the spacing constant for larger screens */
 }
+}
+
+/* Add more media queries as needed for larger screens (laptops, desktops) */
 
 
 
@@ -622,7 +624,15 @@ section.video1 {
 }
 
 .intro-text h1 {
-    font-family: "IBM Plex Sans", sans-serif;
+ 
+footer{
+    text-align: left;
+}
+
+#footertext{
+    text-transform: none;
+    font-weight: 400;
+}
     font-size: 2.5em;
     color: #333;
     text-shadow: -1px -1px 0 rgb(183, 183, 183), 1px -1px 0 rgb(216, 216, 216), 1px 1px 0 rgb(255, 255, 255),
@@ -683,4 +693,15 @@ section.video1 {
     margin-top: 110px;
 }
 
+}
+
+
+footer{
+    text-align: left;
+}
+
+#footertext{
+    font-size: 1em;
+    text-transform: none;
+    font-weight: 400;
 }

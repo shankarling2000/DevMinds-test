@@ -157,7 +157,7 @@ html {
 }
 
 /* Styles for the overlay */
-.overlay {
+/* .overlay {
     display: none;
     position: fixed;
     top: 0;
@@ -173,7 +173,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 /* Styles for the card */
 .card {
@@ -535,7 +535,8 @@ figcaption{
 }
 
 figcaption:hover{
-   color:#341F97
+   color:#341F97;
+   font-weight: 500;
 }
 
 .service-item img {

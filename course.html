@@ -194,47 +194,6 @@
       </div>
   </section> 
 
- <div class="divider"></div>
-
-<!-- Section 3: Contact Form -->
-<section class="contact-section">
-  <h2 id="askus1" >Need Help?</h2>
-  <h2 id="askus2">Ask us anything</h2>
-  <form>
-      <div class="form-group">
-          <label for="institution-name">Institution Name</label>
-          <input type="text" id="institution-name" name="institution-name" required>
-      </div>
-
-      <div class="form-group">
-          <label for="contact-name">Contact Name</label>
-          <input type="text" id="contact-name" name="contact-name" required>
-      </div>
-
-      <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-      </div>
-
-      <div class="form-group">
-          <label for="course-interest">Course of Interest</label>
-          <select id="course-interest" name="course-interest" required>
-              <option value="" disabled selected>Select a course</option>
-              <option value="course1">S.T.E.M</option>
-              <option value="course2">P.E.A.R.L</option>
-              <option value="course3">Something else</option>
-              <!-- Add more options as needed -->
-          </select>
-      </div>
-
-      <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-      </div>
-
-      <button type="submit" class="submit-button">Submit</button>
-  </form>
-</section>
 
 
   <!--Start of Tawk.to Script-->
@@ -252,7 +211,7 @@
   <!--End of Tawk.to Script-->
 
   <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
+  <!-- Bootstrap core JavaScript --> 
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/isotope.min.js"></script>
@@ -265,6 +224,21 @@
 
 </body>
 <footer class="footer">
+  
+  <div class="footer-column">
+    <h4>Sign Up to Newsletter</h4>
+    <p id="footertext">Worded by learners, teachers, experts, and leaders from around the globe.
+      <br>
+      <div class="form-container1">
+        <form id="contactfooter" action="https://formspree.io/f/xvojkgpj" method="POST">
+            <input type="email" name="email" id="email" class="emailo" placeholder="Email" required>
+   
+            <button id="popupbtn" type="submit">Sign up</button>
+        </form>
+    </div>
+</div>
+
+  
   <div class="footer-column">
       <h4>Company</h4>
       <ul>
