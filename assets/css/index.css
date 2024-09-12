@@ -315,7 +315,6 @@ html {
     margin-bottom: 40px;
     display: flex;
     background-color: transparent;
-    background-image: url(/assets/images/checkered\ bg.jpg);
     justify-content: space-around; /* Adjust spacing between items */
     align-items: center;
     width: 100%;
@@ -324,7 +323,7 @@ html {
 }
 
 .image-container1 img {
-    max-width: 10%; /* Make images responsive */
+    max-width: 11%; /* Make images responsive */
     height: auto; 
     margin-bottom: 20px;
     margin-top: 20px;
@@ -517,6 +516,7 @@ figcaption {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    background-color: rgb(135, 206, 250, 0.3);
 }
 
 
@@ -531,10 +531,11 @@ figcaption {
 figcaption{
     color: #000000;
     font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 00;
 }
 
 figcaption:hover{
-    color: #f5a425;
+   color:#341F97
 }
 
 .service-item img {
