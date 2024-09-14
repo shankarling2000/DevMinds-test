@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 body {
-    background: rgba(39, 0, 93);
+    
+    background-image: url(/assets/images/checkered\ bg.jpg);
     color: aliceblue;
     font-family: 'Jost', sans-serif;
     margin: 0;
@@ -8,7 +12,8 @@ body {
 
 /* Section 1: Intro with video */
 .intro-section {
-    margin-top: 10px;
+    background: rgba(39, 0, 93);
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +28,8 @@ body {
 }
 
 .intro-text {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -53,7 +60,8 @@ body {
 /* Section 2: Courses */
 .courses-section {
     text-align: center;
-    padding: 20px;
+    
+
 }
 
 .courses-section h2 {
@@ -62,6 +70,7 @@ body {
 }
 
 .course-cards {
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -90,7 +99,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
     font-size: 1.5em;
     text-align: center;
     opacity: 0;
@@ -99,8 +108,8 @@ body {
 }
 
 .course-card:hover img {
-    opacity: 0.1;
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.0;
     transform:scale(0.9);
     transition-duration: 500ms;
     
@@ -176,6 +185,7 @@ body {
 }
 
 .des-section {
+    background: rgba(39, 0, 93);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,6 +202,7 @@ body {
     width: 100%;
     text-align: center;
     box-sizing: border-box;
+    margin-bottom: 3%;
 }
 
 .testimonial-card p {
@@ -220,11 +231,18 @@ body {
 
 
 #coursehead{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+    
     margin-top: 2%;
-    font-size: 4em;;
+    font-size: 4em;
+
 }
 
 #coursedes{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+
     font-size: 1.2em;
 }
 
@@ -233,6 +251,7 @@ body {
     height: 4px;
     background-color: #013f83; /* Change color as needed */
     margin-top: 5% ; /* Optional margin for spacing */
+    margin-bottom: 5%;
   }
   
 
