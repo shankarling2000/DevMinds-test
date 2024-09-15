@@ -172,6 +172,7 @@ body {
     }
 
     .course-card {
+        margin: 10%;
         font-size: smaller;
         width: 100%;
     }
