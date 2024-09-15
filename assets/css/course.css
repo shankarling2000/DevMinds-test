@@ -433,6 +433,10 @@ input:focus, select:focus, textarea:focus {
 
 @media (min-width: 200px) and (max-width: 598px) {
 
+    #enquries{
+        margin-left: 5% ;
+        margin-right: 5%;
+    }
 
     #vabhead{
         margin-left: 5%;
@@ -454,6 +458,7 @@ input:focus, select:focus, textarea:focus {
        
 
     }
+ 
     #imgandtext {
         margin: none;
     }
@@ -496,4 +501,20 @@ input:focus, select:focus, textarea:focus {
          }
 
  
+}
+
+
+#enquries{
+    color: black;
+    font-size: 1.3em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    line-height: 1.5;
+
+}
+
+#contact{
+    color: black;
 }
