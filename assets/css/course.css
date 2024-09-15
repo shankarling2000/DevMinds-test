@@ -234,7 +234,7 @@ body {
     font-family: "IBM Plex Sans", sans-serif;
     color: black;
     
-    margin-top: 2%;
+    margin-top: 5%;
     font-size: 4em;
 
 }
@@ -242,7 +242,6 @@ body {
 #coursedes{
     font-family: "IBM Plex Sans", sans-serif;
     color: black;
-
     font-size: 1.2em;
 }
 
@@ -384,4 +383,84 @@ input:focus, select:focus, textarea:focus {
 
 #privacy {
     color: aliceblue;
+}
+
+#vabhead{
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-weight: 500;
+}
+
+#vabdes{
+    max-width: 50%;
+    text-align: justify;
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    font-size: 1.1em;
+}
+
+#vabdeets{
+
+    padding: 10px;
+}
+
+
+#imgandtext > img {
+ margin-right: 5%;
+ margin-left: 5%;
+ 
+ overflow: hidden;
+ padding: 10px;
+ float: right;
+}
+#imgandtext, #text {
+    overflow: hidden;
+}
+
+#divider{
+    height: 2px;
+    background: #013f83;
+}
+
+@media (min-width: 200px) and (max-width: 598px) {
+
+
+    #vabhead{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+    
+    #vabdes{
+        max-width: 100%;
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+  
+    }
+    
+
+    #vabdeets{
+       
+
+    }
+    #imgandtext {
+        margin: none;
+    }
+    
+    #imgandtext > img {
+       max-width: 90%;
+       margin: 5%;
+    
+    }
+ 
+    
+
 }
