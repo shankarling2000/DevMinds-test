@@ -423,7 +423,7 @@ transition-duration: 300ms;
 }
 
 #schools:hover {
-        transform: scale(1.1);
+        transform: scale(0.9);
         }
 
 
@@ -497,7 +497,7 @@ transition-duration: 300ms;
     color: black;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 1%;
     margin-bottom: 2%;
     font-weight: 500;
@@ -511,7 +511,7 @@ transition-duration: 300ms;
     color: black;
     font-family: "IBM Plex Sans", sans-serif;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 1%;
     font-size: 1.1em;
 }
@@ -761,7 +761,7 @@ figcaption {
 
 
 #imgandtext1{
-    margin-top: 0%;
+    margin-top: 3%;
       background-color: transparent;
   }
   
@@ -800,3 +800,11 @@ figcaption {
   }
 
 
+#italics{
+  background-color:#f6b737;
+}
+
+#italics1{
+    color: white;
+    background-color: #27005d;
+}
