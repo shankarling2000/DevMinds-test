@@ -1,0 +1,802 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    
+    background-image: url(/assets/images/checkered\ bg.jpg);
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding-top: 90px; /* Adjust according to navbar height */
+}
+
+/* Section 1: Intro with video */
+.intro-section {
+    background: #27005d;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro-content {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Section 2: Courses */
+.courses-section {
+    text-align: center;
+    
+
+}
+
+.courses-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.course-cards {
+    margin-left:15%;
+    margin-right:10%;
+    width: 70%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.course-card {
+    display: flex;
+    position: relative;
+    width: 150px;
+    margin-left: 3%;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+ 
+}
+
+/* 
+canva download the card images without bg and change bg color down below if required */
+.course-card img { 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
+.course-card .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.course-card:hover img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.0;
+    transform:scale(0.9);
+    transition-duration: 300ms;
+    
+}
+
+.course-card:hover .overlay-text {
+    opacity: 1;
+}
+
+.sign-up-button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* Section 3: Contact Form */
+.contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+/* Media Queries for Responsiveness */
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 900px) {
+    .intro-section {
+        flex-direction: column;
+    }
+
+    .intro-text, .intro-video {
+        width: 100%;
+    }
+
+    .course-card {
+        width: 45%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 599px) {
+    .intro-section {
+        margin-top: 10px;
+        font-size: small;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-text, .intro-video {
+        font-size: small;
+        width: 100%;
+    }
+
+    .course-card {
+        margin: 10%;
+        font-size: smaller;
+        width: 100%;
+    }
+}
+
+.descript {
+    font-size: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.des-section {
+    background: rgba(39, 0, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.testimonial-card {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+.testimonial-card p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.testimonial-card footer {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .testimonial-card {
+        padding: 15px;
+    }
+    .testimonial-card p {
+        font-size: 0.9em;
+    }
+}
+
+#courseimg {
+
+}
+
+
+#coursehead{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+    
+    margin-top: 5%;
+    font-size: 3em;
+
+}
+
+#coursedes{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+.divider {
+    width: 100%;
+    height: 4px;
+    background-color: #013f83; /* Change color as needed */
+    margin-top: 5% ; /* Optional margin for spacing */
+    margin-bottom: 5%;
+  }
+  
+
+  /* Minimalist and Elegant Form Styling */
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(39, 0, 93, 0.8);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+   
+    color: aliceblue;
+}
+/* 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    color: black;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+} */
+
+/* Responsive Design */
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 900px) {
+  #contactusbtn{
+    margin-bottom: 5%;
+  }
+  
+    .contact-section {
+        padding: 30px 15px;
+        max-width: 500px;
+    }
+
+    .contact-section h2 {
+        font-size: 1.8em;
+    }
+
+    input, select, textarea {
+        font-size: 0.95em;
+        padding: 8px;
+    }
+
+    .submit-button {
+        padding: 8px 18px;
+        font-size: 1em;
+    }
+}
+
+/* Mobile */
+@media (max-width: 599px) {
+    #contactusbtn{
+        margin-bottom: 5%;
+      }
+    
+    .contact-section {
+        padding: 20px 10px;
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .contact-section h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    input, select, textarea {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .submit-button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
+
+
+#vabdeets1{
+
+    padding: 10px;
+}
+
+
+#askus2{
+    margin-bottom: 40px;
+}
+
+
+#askus1{
+    margin-bottom: 5px;
+}
+
+#privacy {
+    color: aliceblue;
+}
+
+#vabhead{
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(75, 75, 75);
+    text-align: left;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+
+
+#vabdeets{
+    margin-top: 5%;
+    padding: 10px;
+}
+
+#vabdeets1{
+    margin-top: 5%;
+    padding: 10px;
+}
+
+
+#imgandtext{
+  margin-top: 2%;
+    background-color: #27005d;
+}
+
+#imgandtext > img {
+border-radius: 5%;
+ margin-right: 5%;
+ margin-left: 5%;
+ margin-top: 1%;
+ max-width: 30%;
+ overflow: hidden;
+float: right;
+transition-duration: 300ms;
+}
+
+#schools:hover {
+        transform: scale(1.1);
+        }
+
+
+#imgandtext, #text {
+    overflow: hidden;
+}
+
+#divider{
+    height: 2px;
+    background: #013f83;
+}
+
+@media (min-width: 200px) and (max-width: 598px) {
+
+    #enquries{
+        margin-left: 5% ;
+        margin-right: 5%;
+    }
+
+    #vabhead{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+    }
+    
+    #vabdes{
+        max-width: 100%;
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+  
+    }
+
+    #vabdes1{
+        max-width: 100%;
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+  
+    }
+    
+
+ 
+    #imgandtext {
+        margin: none;
+    }
+    
+    #imgandtext > img {
+       max-width: 90%;
+       margin: 5%;
+    
+    }
+
+    #imgandtext1 {
+        margin: none;
+    }
+    
+    #imgandtext1 > img {
+       max-width: 90%;
+       margin: 5%;
+    
+    }
+
+
+ }
+
+
+ #vabhead1{
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-weight: 500;
+}
+
+
+
+ #vabdes1{
+    max-width: 50%;
+    text-align: justify;
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    font-size: 1.1em;
+}
+
+ #domains{
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-weight: 500;
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;  
+    text-transform: none;
+
+ }
+
+
+ #domains1{
+    font-size: 3em;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-weight: 500;
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;  
+    text-transform: none;
+
+ }
+
+
+
+
+ #domainsdes{
+    line-height: 1.3;
+    font-weight: 00;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 100%;
+    font-size: 1.1em;
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+
+ }
+
+
+ @media (min-width: 200px) and (max-width: 926px) {
+
+        #domainsdes{
+            margin: 5%;
+         }
+
+ 
+}
+
+
+#enquries{
+    color: black;
+    font-size: 1.3em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    line-height: 1.5;
+
+}
+
+#contact{
+    color: black;
+}
+
+#collegeintro{
+    color: rgb(255, 255, 255);
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 1.2em;;
+}
+
+#contactusbtn {
+    float: left;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #27005d;
+    color: white;
+    font-weight: 500;
+    box-shadow: 6px 6px 0 0 var(--bg_dark), 3px 3px 0 0 #b8bfd6;
+    height: 5em;
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 5%;    
+    transition-duration: 200ms ;
+ 
+}
+
+#contactusbtn:hover{
+    box-shadow:  6px 6px #ffffff
+}
+
+
+
+
+@media (min-width: 900px) and (max-width: 1260px) {
+
+
+    .course-cards {
+        margin-left:0%;
+        margin-right:0%;
+        width: 100%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    
+    .course-card {
+        margin-left: 2%%;
+    }
+     
+    
+    
+   
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+
+    .course-cards {
+        margin-left:1%;
+        margin-right:0%;
+        width: 100%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    .course-card {
+        margin: 2%;
+        display: flex;
+        position: relative;
+        width: 100px;
+        overflow: hidden;
+        border-radius: 10px;
+        cursor: pointer;
+     
+    }
+    
+    /* 
+    canva download the card images without bg and change bg color down below if required */
+
+
+}
+
+
+
+/* Our Services Section */
+.our-services {
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url(/assets/images/checkered\ bg.jpg);
+    background-color: transparent;
+}
+
+.our-services h2 {
+    font-size: 3rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-bottom: 60px;
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-shadow: -1px -1px 0 rgb(183, 183, 183), 1px -1px 0 rgb(216, 216, 216), 1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    border: 2px solid #000000;
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+    max-width: calc(20% - 50px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: rgb(135, 206, 250, 0.3);
+}
+
+
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 15px black;
+    color: #f5a425;
+}
+
+
+figcaption{
+    color: #000000;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 00;
+}
+
+figcaption:hover{
+   color:#341F97;
+   font-weight: 500;
+}
+
+.service-item img {
+    display: flex;
+    position: relative;
+    left: 20%;
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+
+
+@media (max-width: 768px) {
+    .service-item {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+}
+
+@media (max-width: 480px) {
+    .service-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+
+figcaption {
+    font-size: 23px;
+    margin: 10px;
+    color: #000000;
+}
+
+
+
+
+#imgandtext1{
+    margin-top: 0%;
+      background-color: transparent;
+  }
+  
+  #imgandtext1 > img {
+    border-radius: 2%;
+
+   margin-right: 5%;
+   margin-left: 5%;
+   margin-top: 0%;
+   max-width: 25%;
+   overflow: hidden;
+  float: right;
+  transition-duration: 300ms;
+  }
+  
+  
+  
+  #imgandtext1, #text {
+      overflow: hidden;
+  }
+  
+
+  @media (min-width: 200px) and (max-width: 598px) {
+
+    #imgandtext1 {
+          margin: none;
+      }
+      
+      #imgandtext1 > img {
+         max-width: 90%;
+         margin: 5%;
+      
+      }
+  
+  
+  }
+
+
