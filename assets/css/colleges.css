@@ -448,6 +448,8 @@ transition-duration: 300ms;
         margin-right: 5%;
         text-align: left;
     }
+
+   
     
     #vabdes{
         max-width: 100%;
@@ -458,14 +460,7 @@ transition-duration: 300ms;
   
     }
 
-    #vabdes1{
-        max-width: 100%;
-        text-align: justify;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 10%;
-  
-    }
+
     
 
  
@@ -784,6 +779,33 @@ figcaption {
   }
   
 
+  @media (min-width: 200px) and (max-width: 667px) {
+   
+   #vabhead{
+    text-align: center;
+    font-size: 2em;
+   }
+
+   #collegeintro{
+text-align: center;
+font-size: 1em;
+
+   }
+    #contactusbtn {
+        
+        height: 5em;
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%; 
+        margin-bottom: 5%;   
+        
+    }
+
+
+  }
+
+
   @media (min-width: 200px) and (max-width: 598px) {
 
     #imgandtext1 {
@@ -796,7 +818,9 @@ figcaption {
       
       }
   
-  
+    
+
+
   }
 
 
@@ -807,4 +831,28 @@ figcaption {
 #italics1{
     color: white;
     background-color: #27005d;
+}
+
+
+
+
+
+@media (min-width: 200px) and (max-width: 598px) {
+
+    #vabhead1{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+   
+    #vabdes1{
+        max-width: 100%;
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+  
+    }
+
+
 }
