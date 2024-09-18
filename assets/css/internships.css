@@ -67,6 +67,14 @@ body {
     height: 100%;
 }
 
+.course-card img { 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
 /* Section 2: Courses */
 .courses-section {
     text-align: center;
@@ -80,7 +88,10 @@ body {
 }
 
 .course-cards {
-    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right:10%;
+    width: 70%;
+    margin-bottom: 1%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -88,23 +99,48 @@ body {
 }
 
 .course-card {
+    display: flex;
     position: relative;
-    width: 250px;
-    margin: 10px;
+    width: 150px;
+    margin-left: 3%;
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
  
 }
 
-/* 
-canva download the card images without bg and change bg color down below if required */
-.course-card img { 
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    transition: opacity 0.5s ease-in-out;
+@media (min-width: 200px) and (max-width: 900px) {
+
+    .course-cards {
+        margin-left:1%;
+        margin-right:0%;
+        width: 100%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    .course-card {
+        margin: 2%;
+        display: flex;
+        position: relative;
+        width: 100px;
+        overflow: hidden;
+        border-radius: 10px;
+        cursor: pointer;
+     
+    }
+    
+    /* 
+    canva download the card images without bg and change bg color down below if required */
+
+
 }
+
+/* 
+
 
 .course-card .overlay-text {
     position: absolute;
@@ -164,9 +200,7 @@ canva download the card images without bg and change bg color down below if requ
         width: 100%;
     }
 
-    .course-card {
-        width: 45%;
-    }
+ 
 }
 
 /* Mobile */
@@ -183,11 +217,6 @@ canva download the card images without bg and change bg color down below if requ
         width: 100%;
     }
 
-    .course-card {
-        margin: 10%;
-        font-size: smaller;
-        width: 100%;
-    }
 }
 
 .descript {
@@ -240,9 +269,6 @@ canva download the card images without bg and change bg color down below if requ
     }
 }
 
-#courseimg {
-    border: 1px solid black;
-}
 
 
 #coursehead{
