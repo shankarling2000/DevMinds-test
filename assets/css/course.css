@@ -222,6 +222,7 @@ canva download the card images without bg and change bg color down below if requ
 @media (max-width: 600px) {
     .testimonial-card {
         padding: 15px;
+        margin: 5%;
     }
     .testimonial-card p {
         font-size: 0.9em;
