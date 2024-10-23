@@ -72,7 +72,16 @@ canva download the card images without bg and change bg color down below if requ
     transition: opacity 0.5s ease-in-out;
 }
 
-
+.underlined{
+    align-items: center;
+    background-image: url(/assets/images/underline.png);
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: 80% 110%;
+    display:inline;
+    line-height: 9%;
+    padding:0 10px ;
+}
 
 
 .course-card .overlay-text {
