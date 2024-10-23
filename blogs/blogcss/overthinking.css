@@ -1,0 +1,250 @@
+/* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    font-family:  "IBM Plex Sans", sans-serif;
+    color: #333;
+    background-color: #f5f8fb; /* Light background */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Go Back Button */
+.go-back-btn {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #4b6cb7; /* DevMinds blue */
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.go-back-btn:hover {
+    background-color: #3f5aa7; /* Slightly darker on hover */
+}
+
+/* Blog Content Section */
+.blog-post {
+
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: transparent;
+}
+
+.blog-title {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.blog-meta {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.blog-paragraph {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.blog-image {
+    
+    display: flex;
+    max-width: 50%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reading-time {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Author Bio Section */
+.author-bio {
+    max-width: 800px; /* Match blog post width */
+    margin: 40px auto; /* Center the section */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.author-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.author-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Related Posts Section */
+.related-posts {
+    max-width: 800px; /* Match blog post width */
+    margin: 40px auto; /* Center the section */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.related-posts h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.related-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.related-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.related-post a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000103;
+    font-weight: bold;
+}
+
+/* Newsletter Section */
+.newsletter {
+    max-width: 100%; /* Match blog post width */
+    margin-top: 40px ; 
+    margin-bottom: none;/* Center the section */
+    padding: 20px;
+    background-color: #000e30;
+    color: white;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.newsletter form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.newsletter form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #4b6cb7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .blog-post, .author-bio, .related-posts, .newsletter {
+        padding: 0 10px;
+    }
+
+    .go-back-btn {
+        margin: 10px;
+        padding: 8px 15px;
+    }
+
+    .blog-title {
+        font-size: 28px;
+    }
+
+    .blog-paragraph {
+        font-size: 16px;
+    }
+
+    .author-bio {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .author-image {
+        margin-bottom: 10px;
+    }
+
+    .related-post {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .related-image {
+        margin-bottom: 10px;
+    }
+
+    .newsletter form input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-title {
+        font-size: 24px;
+    }
+
+    .blog-paragraph {
+        font-size: 14px;
+    }
+
+    .author-info h3 {
+        font-size: 20px;
+    }
+
+    .newsletter h2 {
+        font-size: 24px;
+    }
+
+    .newsletter p {
+        font-size: 16px;
+    }
+
+    .submit-comment {
+        padding: 8px 15px;
+    }
+}
