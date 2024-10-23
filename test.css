@@ -79,7 +79,7 @@ nav .logo.hidden {
 }
 
 .blog-section {
-    padding: 80px 20px;
+    padding: 80px 50px;
     background-image: url(/assets/images/checkered\ bg.jpg);
 }
 
@@ -228,3 +228,12 @@ nav .logo.hidden {
     }
 }
 
+
+
+
+
+@media screen and (max-width: 400px) {
+.blog-section {
+padding: 80px 20px;
+}
+}
