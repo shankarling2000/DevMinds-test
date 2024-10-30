@@ -314,7 +314,7 @@ margin-bottom: 5%;
 
 .image-container1 {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     display: flex;
     background-color: transparent;
     justify-content: space-around; /* Adjust spacing between items */
@@ -327,8 +327,7 @@ margin-bottom: 5%;
 .image-container1 img {
     max-width: 11%; /* Make images responsive */
     height: auto; 
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 20px;;
    
 }
 
@@ -401,6 +400,10 @@ margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#allBody{
+    background-image: url(/assets/images/checkered\ bg.jpg);
 }
 
 .testimonial-card {
@@ -548,7 +551,7 @@ figcaption:hover{
     display: flex;
     position: relative;
     left: 20%;
-    width: 70%;
+    width: 60%;
     height: auto;
     display: block;
 }
@@ -578,3 +581,121 @@ figcaption:hover{
 /* #lgs{
     margin: 30px;
 } */
+
+
+
+.domain-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .domain-list {
+    margin-top: 2%;
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    max-width: 80%;
+    width: 100%;
+  }
+
+  .domain-item {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive adjustment */
+  @media (max-width: 768px) {
+    .domain-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .domain-list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  
+/* Section 2: Courses */
+.courses-section {
+   background-image: url('/assets/images/checkered\ bg.jpg');
+    text-align: center;
+    
+
+}
+
+#mentorcompanies{
+    margin-top: 5%;
+}
+
+.courses-section h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    text-shadow: -1px -1px 0 rgb(183, 183, 183), 1px -1px 0 rgb(216, 216, 216), 1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+    font-size: 2.0em;
+}
+
+
+.course-cards {
+    margin-top: 2%;
+    margin-left:15%;
+    margin-right:10%;
+    margin-bottom: 1%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.course-card {
+    display: flex;
+    position: relative;
+    width: 150px;
+    margin-left: 3%;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+ 
+}
+
+/* 
+canva download the card images without bg and change bg color down below if required */
+.course-card img { 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.underlined{
+    align-items: center;
+    background-image: url(/assets/images/underline.png);
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: 80% 110%;
+    display:inline;
+    line-height: 9%;
+    padding:0 10px ;
+}
+
+
+.course-card:hover .overlay-text {
+    opacity: 1;
+}
+
+.services-container1 {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
