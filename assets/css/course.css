@@ -79,7 +79,7 @@ body {
 
 .course-card {
     position: relative;
-    width: 250px;
+    width: 200px;
     margin: 10px;
     overflow: hidden;
     border-radius: 10px;
@@ -162,7 +162,7 @@ canva download the card images without bg and change bg color down below if requ
 /* Mobile */
 @media (max-width: 599px) {
     .intro-section {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         font-size: small;
         flex-direction: column;
         text-align: center;
@@ -215,7 +215,6 @@ canva download the card images without bg and change bg color down below if requ
 
 .testimonial-card footer {
     margin-top: 20px;
-    font-style: italic;
     text-align: center;
 }
 
@@ -330,6 +329,37 @@ input:focus, select:focus, textarea:focus {
 
 /* Responsive Design */
 
+
+.marquee-container {
+    background-color: #ffd900; /* Dark greenish teal background */
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 8s linear infinite;
+  }
+
+  .marquee span {
+    font-size: 16px;
+    color: #000000; /* White text */
+    font-weight: bold;
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+
 /* Tablet */
 @media (min-width: 600px) and (max-width: 900px) {
     .contact-section {
@@ -354,6 +384,23 @@ input:focus, select:focus, textarea:focus {
 
 /* Mobile */
 @media (max-width: 599px) {
+
+
+    .underlined{
+        display: none;
+}
+    #coursedes{
+        font-size: initial;
+    }
+
+    #coursehead{
+        font-size: xx-large;
+    }
+
+    #openPopupBtn{
+        width: 60%;
+        margin-bottom: 10%;
+    }
     .contact-section {
         padding: 20px 10px;
         max-width: 100%;
@@ -434,6 +481,7 @@ input:focus, select:focus, textarea:focus {
 
 @media (min-width: 200px) and (max-width: 598px) {
 
+
     #enquries{
         margin-left: 5% ;
         margin-right: 5%;
@@ -442,23 +490,24 @@ input:focus, select:focus, textarea:focus {
     #vabhead{
         margin-left: 5%;
         margin-right: 5%;
+        font-size: 1.2em;
         text-align: center;
+        margin-bottom: 5%;
+
     }
-    
+
+   
     #vabdes{
         max-width: 100%;
         text-align: justify;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 5%;
+        font-size: unset;
         margin-bottom: 10%;
   
     }
-    
 
-    #vabdeets{
-       
-
-    }
  
     #imgandtext {
         margin: none;
@@ -498,6 +547,7 @@ input:focus, select:focus, textarea:focus {
  @media (min-width: 200px) and (max-width: 926px) {
 
         #domainsdes{
+            font-size: unset;
             margin: 5%;
          }
 
@@ -518,4 +568,164 @@ input:focus, select:focus, textarea:focus {
 
 #contact{
     color: black;
+}
+
+
+
+
+
+ /* Button to open popup */
+ .open-popup-btn {
+    border-radius: 50px;
+    font-size: larger;
+    width: 30%;
+    height: 60px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 3.5%;   
+  }
+
+  .open-popup-btn:hover {
+    background-color: #ff1a66;
+  }
+
+  /* Overlay background */
+  .popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Translucent background */
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add some padding to prevent overflow */
+  }
+
+  /* Popup styling */
+  .popup {
+    background-color: #fff;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.4s ease-out;
+    position: relative; /* For positioning the close button */
+  }
+
+  /* Make the layout flexible for responsiveness */
+  @media (min-width: 768px) {
+    .popup {
+      flex-direction: row;
+    }
+  }
+
+  /* Animation */
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* Banner image section */
+  .banner {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* Info section */
+  .info {
+    flex: 2;
+    padding: 20px;
+    overflow-y: auto; /* Prevent overflow if content is too long */
+  }
+
+  .info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "IBM Plex Sans";
+  }
+
+  .info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: "IBM Plex Sans";
+  }
+
+  /* Join button */
+  .join-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+
+  .join-btn:hover {
+    background-color: #45a049;
+  }
+
+  /* Close button */
+  .close-btn {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+    z-index: 1; /* Ensure close button is above other content */
+  }
+
+  .close-btn:hover {
+    color: #333;
+  }
+
+
+
+
+  .underlined{
+    align-items: center;
+    background-image: url(/assets/images/underline.png);
+    background-position: 10px 20px;
+    background-repeat: no-repeat;
+    background-size: 80% 110%;
+    display:inline;
+    line-height: 9%;
+    padding:0 10px ;
+}
+
+.brochure{
+    border-radius: 50px;
+    font-size: medium;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+
 }
