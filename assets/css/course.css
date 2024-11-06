@@ -349,6 +349,16 @@ input:focus, select:focus, textarea:focus {
     font-weight: bold;
   }
 
+  #bold{
+  
+    background-color:#f6b737;
+  }
+
+  #bold1{
+    color: aliceblue;
+    background-color:#27005d;
+  }
+
   @keyframes marquee {
     from {
       transform: translateX(100%);
