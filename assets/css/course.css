@@ -237,7 +237,7 @@ canva download the card images without bg and change bg color down below if requ
     font-family: "IBM Plex Sans", sans-serif;
     color: black;
     
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 3em;
 
 }
@@ -465,6 +465,7 @@ input:focus, select:focus, textarea:focus {
     margin-bottom: 2%;
     font-size: 1.1em;
     margin-top: 0%;
+    line-height: 1.5;
 }
 
 #vabdes1{
